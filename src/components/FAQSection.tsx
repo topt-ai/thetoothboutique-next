@@ -15,7 +15,7 @@ export default function FAQSection() {
     },
     {
       question: '¿Qué incluye la evaluación inicial?',
-      answer: 'La evaluación incluye revisión clínica completa, escaneo 3D con tecnología iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D para analizar tu caso en detalle.',
+      answer: 'La evaluación incluye revisión clínica completa, escaneo 3D con tecnología iTero y fotografías extraorales e intraorales para analizar tu caso en detalle. Las radiografías necesarias (panorámica, cefalométrica o 3D) se toman en la misma clínica con un costo de $20 cada una.',
     },
     {
       question: '¿Puedo iniciar tratamiento si ya tengo uno comenzado en otro lugar?',

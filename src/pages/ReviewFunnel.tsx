@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import { Star, CheckCircle2 } from 'lucide-react';
 
 const GOOGLE_REVIEW_URL = 'https://g.page/r/CZx5UM-Rb9oCEBM/review';
@@ -27,7 +27,7 @@ export default function ReviewFunnel() {
   const displayRating = hoverRating || rating;
   const isHighRating = rating >= 4;
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     await handleSubmitFeedback(rating, name, feedback);

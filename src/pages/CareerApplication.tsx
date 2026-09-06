@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, type ChangeEvent, type DragEvent, type FormEvent } from 'react';
 import { CheckCircle2, FileText, Loader2, Upload, X } from 'lucide-react';
 
 const APPLICATION_WEBHOOK_URL = 'https://tommy-1.app.n8n.cloud/webhook/aplicacion-tooth-boutique';
@@ -48,14 +48,14 @@ export default function CareerApplication() {
     setCv(file);
   };
 
-  const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
+  const handleDrop = (e: DragEvent<HTMLDivElement>) => {
     e.preventDefault();
     setIsDragging(false);
     const file = e.dataTransfer.files?.[0];
     if (file) handleFile(file);
   };
 
-  const handleFileInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) handleFile(file);
   };
@@ -76,7 +76,7 @@ export default function CareerApplication() {
     return Object.keys(next).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setSubmitError(false);
     if (!validate() || !cv) return;

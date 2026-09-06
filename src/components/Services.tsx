@@ -53,7 +53,7 @@ export default function Services() {
 
         <h2 className="font-display font-bold text-[clamp(40px,4vw,64px)] text-text leading-[1.1] mb-16">
           Nuestros Servicios<br />
-          <span className="italic font-normal text-[24px] text-muted">de Ortodoncia y Estética Dental</span>
+          <span className="italic font-normal text-[24px] text-muted">de Ortodoncia y Estética Dental en San Salvador</span>
         </h2>
 
         <div className="flex flex-col gap-24 md:gap-32 mt-16">

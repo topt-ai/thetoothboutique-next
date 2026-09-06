@@ -31,7 +31,7 @@ export default function Contact() {
                   TELÉFONO
                 </span>
                 <a href="tel:+50379056000" className="font-body font-normal text-[16px] text-[#FAFAF8] hover:text-accent transition-colors">
-                  7905 6000
+                  +503 7905 6000
                 </a>
               </div>
 
@@ -76,7 +76,7 @@ export default function Contact() {
           {/* Right Column: Map */}
           <div className="w-full md:w-[55%] h-[360px] md:h-auto min-h-[360px]">
             <iframe
-              src="https://www.google.com/maps?q=Century+Tower,+San+Salvador&output=embed"
+              src="https://maps.google.com/maps?q=The+Tooth+Boutique+Century+Tower+San+Salvador&output=embed"
               title="Ubicación de The Tooth Boutique en Century Tower, Zona Rosa, San Salvador"
               className="w-full h-full rounded-[20px] border border-accent/15"
               loading="lazy"

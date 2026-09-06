@@ -19,10 +19,11 @@ export default function Footer() {
 
           {/* Center */}
           <div className="flex flex-col gap-3">
-            <a href="#inicio" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Inicio</a>
-            <a href="#invisalign" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Invisalign</a>
-            <a href="#brackets" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Brackets</a>
-            <a href="#contacto" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Contacto</a>
+            <a href="/" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Inicio</a>
+            <a href="/invisalign" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Invisalign en San Salvador</a>
+            <a href="/brackets" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Brackets en San Salvador</a>
+            <a href="/blanqueamiento" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Blanqueamiento Dental</a>
+            <a href="/#contacto" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Ubicación en Zona Rosa</a>
             <a href="https://review.thetoothboutique.com" target="_blank" rel="noopener noreferrer" className="font-body font-light text-[13px] text-[#FAFAF8]/60 hover:text-accent transition-colors">Dejar Review</a>
           </div>
 

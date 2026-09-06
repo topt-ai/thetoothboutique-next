@@ -70,14 +70,15 @@ export default function Hero() {
         ref={textRef}
         className="w-full md:w-[55%] flex flex-col justify-end md:justify-center px-[6%] md:pl-[8%] pt-32 md:pt-0 pb-[100px] md:pb-0 z-10 min-h-[100dvh] md:min-h-0"
       >
-        <span className="hero-text-element font-mono text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-6">
-          // Ortodoncia de precisión · San Salvador
-        </span>
+        {/* H1 semántico (categoría + ciudad) con el estilo del eyebrow; el slogan grande es un <p>. */}
+        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-6">
+          // Ortodoncista en San Salvador · Zona Rosa
+        </h1>
 
-        <h1 className="hero-text-element font-display font-bold text-[clamp(52px,6vw,88px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-6">
+        <p className="hero-text-element font-display font-bold text-[clamp(52px,6vw,88px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-6">
           Sonríe Antes<br />
           <span className="italic font-normal">de lo que Imaginas</span>
-        </h1>
+        </p>
 
         <p className="hero-text-element font-body font-light text-[18px] text-[rgba(250,250,248,0.75)] md:text-muted max-w-[480px] leading-[1.7] mb-8">
           La Dra. Melissa Reneé y su equipo en Century Tower, Zona Rosa, combinan tecnología de primer nivel con tratamientos que terminan antes de lo que esperas.
