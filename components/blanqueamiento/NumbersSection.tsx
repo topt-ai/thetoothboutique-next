@@ -13,7 +13,7 @@ export default function NumbersSection() {
     const ctx = gsap.context(() => {
       const stat1 = { val: 0 };
       gsap.to(stat1, {
-        val: 10,
+        val: 30,
         duration: 1.5,
         ease: 'power2.out',
         scrollTrigger: {

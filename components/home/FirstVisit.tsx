@@ -1,31 +1,25 @@
-import { SITE } from '@/lib/site';
-
 // Pilar 4: evaluación, diagnóstico y seguimiento. Reúne consulta, radiografías,
 // profilaxis, retenedores y el láser como complemento, sin leer como tarifario.
 const cards = [
   {
     label: 'Consulta de ortodoncia',
-    price: `$${SITE.prices.evaluacion}`,
     title: 'Evaluación inicial',
     items: ['Análisis facial y revisión clínica', 'Escaneo 3D con iTero', 'Fotografías extraorales e intraorales', 'Diagnóstico y plan de tratamiento personalizado'],
   },
   {
     label: 'Radiografías dentales',
-    price: `$${SITE.prices.radiografia} c/u`,
     title: 'Panorámica, cefalométrica y 3D',
     items: ['Se toman en la misma clínica', 'La panorámica muestra dientes, mandíbula y estructuras', 'La cefalométrica analiza el perfil y los maxilares', 'La 3D es una tomografía de alta precisión'],
   },
   {
     label: 'Profilaxis dental',
-    price: `$${SITE.prices.profilaxis}`,
     title: 'Limpieza profesional',
     items: ['Sesión de 30 a 40 minutos', 'Elimina placa, sarro y manchas superficiales', 'Recomendada cada 6 meses', 'Con o sin tratamiento de ortodoncia'],
   },
   {
     label: 'Después del tratamiento',
-    price: 'Según tu plan',
     title: 'Retenedores y complementos',
-    items: ['Retenedores fijos y removibles para proteger el resultado', 'Láser de fotobiomodulación Ultradent como complemento premium a Invisalign o brackets', 'Puede ayudar a reducir molestias tras los ajustes y a acortar el tratamiento', 'Se cotiza como add-on al plan de ortodoncia'],
+    items: ['Retenedores fijos y removibles para proteger el resultado', 'Láser de fotobiomodulación Ultradent como complemento premium a Invisalign o brackets', 'Puede ayudar a reducir molestias tras los ajustes y a acortar el tratamiento', 'La doctora te dice si aplica para tu caso'],
   },
 ];
 
@@ -35,11 +29,11 @@ export default function FirstVisit() {
       <div className="max-w-[1400px] mx-auto">
         <span className="font-mono text-[11px] text-accent tracking-[0.12em] uppercase mb-6 block">// Tu primera visita</span>
         <h2 className="font-display font-bold text-[clamp(36px,4vw,60px)] text-text leading-[1.1] mb-6">
-          Consulta de ortodoncia en San Salvador:<br />
+          Tu primera consulta:<br />
           <span className="italic font-normal">qué incluye y qué sigue</span>
         </h2>
         <p className="font-body font-light text-[17px] text-muted max-w-[640px] leading-[1.7] mb-16">
-          Los precios de Invisalign, brackets y blanqueamiento dependen de cada caso. Lo que sí es fijo es la evaluación con la que empieza todo, y lo que viene después para cuidar el resultado.
+          Todo empieza con una evaluación completa. Después, lo que hace falta para cuidar el resultado. El costo exacto de cada tratamiento lo recibes en tu consulta.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
@@ -47,7 +41,7 @@ export default function FirstVisit() {
             <div key={card.title} className="bg-surface rounded-[20px] p-8 border border-dark/5 shadow-[0_2px_24px_rgba(15,76,92,0.06)] flex flex-col">
               <span className="font-mono text-[10px] text-accent tracking-[0.12em] uppercase mb-4">{card.label}</span>
               <h3 className="font-display font-semibold text-[22px] text-text leading-tight mb-1">{card.title}</h3>
-              <p className="font-mono text-[13px] text-gold mb-6">{card.price}</p>
+              <div className="mb-6"></div>
               <ul className="flex flex-col gap-3 mt-auto">
                 {card.items.map((item) => (
                   <li key={item} className="flex items-start gap-3">

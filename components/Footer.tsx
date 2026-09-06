@@ -23,11 +23,11 @@ export default function Footer() {
           {/* Center */}
           <div className="flex flex-col gap-3">
             <Link href="/" className={linkClass}>Inicio</Link>
-            <Link href="/invisalign" className={linkClass}>Invisalign en San Salvador</Link>
-            <Link href="/brackets" className={linkClass}>Brackets en San Salvador</Link>
+            <Link href="/invisalign" className={linkClass}>Invisalign</Link>
+            <Link href="/brackets" className={linkClass}>Brackets</Link>
             <Link href="/blanqueamiento" className={linkClass}>Blanqueamiento Dental</Link>
-            <Link href={DOCTOR.path} className={linkClass}>Dra. Melissa Reneé, ortodoncista</Link>
-            <Link href="/#contacto" className={linkClass}>Ubicación en Zona Rosa</Link>
+            <Link href={DOCTOR.path} className={linkClass}>Dra. Melissa Reneé</Link>
+            <Link href="/#contacto" className={linkClass}>Ubicación</Link>
             <a href={SITE.reviewUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>Dejar Review</a>
           </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
             © {new Date().getFullYear()} The Tooth Boutique. Todos los derechos reservados.
           </p>
           <p className="font-body font-light text-[12px] text-[#FAFAF8]/40">
-            Creada por <a href="https://www.tuwebsv.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">TuWebSV</a>
+            Creada por <a href="https://www.tommyhq.com/es-sv" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">TommyHQ</a>
           </p>
         </div>
       </div>

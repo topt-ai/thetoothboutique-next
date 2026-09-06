@@ -17,7 +17,7 @@ export const homeFaqs: FAQ[] = [
   },
   {
     question: '¿Hacen blanqueamiento dental en la misma clínica?',
-    answer: 'Sí. Ofrecemos blanqueamiento dental profesional con resultados de 5 a 7 tonos más blanco en una sola sesión de 10 minutos.',
+    answer: 'Sí. Ofrecemos blanqueamiento dental profesional con resultados de 5 a 7 tonos más blanco en una sola sesión de 30 minutos.',
   },
   {
     question: '¿Qué incluye la evaluación inicial?',
@@ -33,7 +33,7 @@ export const homeFaqs: FAQ[] = [
   },
   {
     question: '¿Dónde está ubicada The Tooth Boutique?',
-    answer: 'Estamos en Century Tower, Zona Rosa, Local 2A, frente a Centro Comercial Bambú, San Salvador. Atendemos pacientes de San Benito, Escalón, Maquilishuat, Antiguo Cuscatlán, Santa Tecla y Santa Elena.',
+    answer: 'Estamos en Century Tower, Zona Rosa, San Salvador.',
   },
   {
     question: '¿Cuánto cuesta la primera consulta o evaluación en The Tooth Boutique?',

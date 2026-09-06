@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="contacto" className="bg-dark py-[100px] px-8 md:px-[8%]">
       <div className="max-w-[1400px] mx-auto">
         <h2 className="font-display font-bold text-[clamp(36px,4vw,56px)] text-[#FAFAF8] leading-[1.1] mb-16 text-center">
-          Clínica de ortodoncia en Zona Rosa, San Salvador
+          Ubicación y Contacto
         </h2>
 
         <div className="flex flex-col md:flex-row gap-12 md:gap-[8%]">
@@ -43,7 +43,7 @@ export default function Contact() {
               <div className="border-b border-white/10 pb-6">
                 <span className="font-mono text-[10px] text-accent uppercase tracking-wider block mb-2">ATENDEMOS PACIENTES DE</span>
                 <p className="font-body font-light text-[14px] text-[#FAFAF8]/75 leading-[1.6]">
-                  Zona Rosa, San Benito, Escalón, Maquilishuat, Antiguo Cuscatlán, Santa Tecla y Santa Elena. Estamos en Century Tower, frente a Centro Comercial Bambú.
+                  Zona Rosa, San Benito, Escalón, Maquilishuat, Antiguo Cuscatlán, Santa Tecla y Santa Elena.
                 </p>
               </div>
             </div>

@@ -65,7 +65,7 @@ export const bracketsDoctor = {
   eyebrow: '// La especialista',
   subtitle: 'Máster en Ortodoncia',
   text: 'La Dra. Melissa Reneé calcula la posición de cada bracket con base en tu plan digital y ve tu caso desde la primera cita hasta el retiro. No pasas de mano en mano. Tratamientos que terminan antes de lo que otras clínicas te dicen, sin comprometer el resultado.',
-  bullets: ['Máster en Ortodoncia · Universidad Francisco Marroquín', 'Metálicos, cerámicos y autoligados', 'Century Tower, Zona Rosa, San Salvador'],
+  bullets: ['Máster en Ortodoncia · Universidad Francisco Marroquín', 'Metálicos, cerámicos y autoligados', 'Controles cortos cada 4 semanas'],
 };
 
 export const bracketsFaqs: FAQ[] = [

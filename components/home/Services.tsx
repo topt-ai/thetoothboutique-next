@@ -6,7 +6,7 @@ const services = [
     id: 'invisalign',
     image: '/invisalign-tratamiento-card.webp',
     tag: 'Alineadores Invisibles',
-    title: 'Invisalign en San Salvador',
+    title: 'Invisalign',
     body: 'Alineadores transparentes con resultados rápidos y discretos. Sin alambres, sin molestias. Ideal para adultos y profesionales que quieren sonreír con confianza desde el primer mes.',
     bullets: [
       'Invisalign Doctor Provider',
@@ -19,7 +19,7 @@ const services = [
     id: 'brackets',
     image: '/brackets-tratamiento-card.webp',
     tag: 'Ortodoncia Tradicional',
-    title: 'Brackets en San Salvador',
+    title: 'Brackets',
     body: 'Ortodoncia precisa y efectiva. Metálicos, cerámicos o autoligados. Opciones para cada caso y cada presupuesto, con los mismos tiempos de tratamiento reducidos.',
     bullets: [
       'Metálicos, cerámicos y autoligados',
@@ -32,14 +32,14 @@ const services = [
     id: 'blanqueamiento',
     image: '/blanqueamiento-dental-tratamiento-card.webp',
     tag: 'Estética Dental',
-    title: 'Blanqueamiento Dental en San Salvador',
-    body: 'Una sola sesión de 10 minutos para una sonrisa hasta 7 tonos más blanca. Sin varias visitas, sin largas esperas. Resultados inmediatos ese mismo día.',
-    bullets: ['Una sola sesión', '10 minutos', 'De 5 a 7 tonos más blanco'],
+    title: 'Blanqueamiento Dental',
+    body: 'Una sola sesión para una sonrisa hasta 7 tonos más blanca. Sin varias visitas, sin esperar semanas. Resultado visible ese mismo día.',
+    bullets: ['Una sola sesión de 30 minutos', 'Resultado el mismo día', 'De 5 a 7 tonos más blanco'],
     link: '/blanqueamiento',
   },
 ];
 
-// Cada servicio principal es un H2 con ciudad. El título de la sección es decorativo.
+// Cada servicio principal es un H2. El título de la sección es decorativo.
 export default function Services() {
   return (
     <section id="tratamientos" className="bg-surface py-[120px] px-8 md:px-[8%]">
@@ -48,7 +48,7 @@ export default function Services() {
 
         <p className="font-display font-bold text-[clamp(40px,4vw,64px)] text-text leading-[1.1] mb-16">
           Nuestros Servicios<br />
-          <span className="italic font-normal text-[24px] text-muted">de Ortodoncia y Estética Dental en San Salvador</span>
+          <span className="italic font-normal text-[24px] text-muted">de Ortodoncia y Estética Dental</span>
         </p>
 
         <div className="flex flex-col gap-24 md:gap-32 mt-16">

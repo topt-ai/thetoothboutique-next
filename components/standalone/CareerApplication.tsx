@@ -285,7 +285,7 @@ export default function CareerApplication() {
           The Tooth Boutique · Zona Rosa, San Salvador
         </p>
         <p className="text-center text-[11px] text-muted/50 tracking-[0.05em] mt-2">
-          by <a href="https://www.tuwebsv.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">tuwebsv</a>
+          by <a href="https://www.tommyhq.com/es-sv" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">TommyHQ</a>
         </p>
       </div>
     </div>

@@ -54,8 +54,8 @@ export default function DoctoraPage() {
           <div className="w-full md:w-[55%]">
             <span className="font-mono text-[11px] text-accent tracking-[0.12em] uppercase mb-6 block">// Formación y trayectoria</span>
             <h2 className="font-display font-bold text-[clamp(36px,4vw,56px)] text-text leading-[1.1] mb-10">
-              Ortodoncista en San Salvador<br />
-              <span className="italic font-normal">con Máster en Ortodoncia</span>
+              Máster en Ortodoncia<br />
+              <span className="italic font-normal">e Invisalign Doctor Provider</span>
             </h2>
             <div className="space-y-6">
               {doctoraBio.map((p, i) => (
@@ -92,10 +92,10 @@ export default function DoctoraPage() {
           </div>
           <div className="mt-12 flex flex-wrap gap-x-10 gap-y-4">
             <Link href="/invisalign" className="group inline-flex items-center gap-2 font-body font-medium text-[15px] text-accent hover:text-white transition-colors">
-              Invisalign en San Salvador <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+              Invisalign <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </Link>
             <Link href="/brackets" className="group inline-flex items-center gap-2 font-body font-medium text-[15px] text-accent hover:text-white transition-colors">
-              Brackets en San Salvador <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+              Brackets <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </Link>
             <Link href="/blanqueamiento" className="group inline-flex items-center gap-2 font-body font-medium text-[15px] text-accent hover:text-white transition-colors">
               Blanqueamiento dental <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -111,7 +111,7 @@ export default function DoctoraPage() {
       <CTABanner
         line1="Tu caso, evaluado"
         line2="por la doctora."
-        text={`La evaluación inicial cuesta $${SITE.prices.evaluacion} e incluye escaneo 3D, fotografías, diagnóstico y plan de tratamiento.`}
+        text="La evaluación inicial incluye escaneo 3D, fotografías, diagnóstico y plan de tratamiento con el costo exacto para tu caso."
         cta="Agenda tu evaluación"
       />
     </main>

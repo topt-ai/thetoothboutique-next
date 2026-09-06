@@ -29,7 +29,7 @@ const service = serviceNode({
   name: m.serviceName,
   description: m.serviceDescription,
   image: m.image,
-  howPerformed: 'Gel de peróxido en concentración profesional aplicado sobre el esmalte con encías y labios protegidos, activado con luz LED durante 10 minutos.',
+  howPerformed: 'Gel de peróxido en concentración profesional aplicado sobre el esmalte con encías y labios protegidos, activado con luz LED durante una sola sesión de 30 minutos.',
   followup: 'Dieta blanca durante 48 horas y profilaxis cada 6 meses. Sesión de mantenimiento opcional cada 12 a 18 meses.',
 });
 
@@ -39,7 +39,7 @@ const jsonLd = graph([
   webPageNode({ path: m.path, name: m.title, description: m.description, about: { '@id': service['@id'] } }),
   service,
   faqNode(blanqueamientoFaqs),
-  howToNode('Proceso de blanqueamiento dental en The Tooth Boutique', 'Cómo funciona el blanqueamiento dental en una sola sesión de 10 minutos.', blanqueamientoSteps),
+  howToNode('Proceso de blanqueamiento dental en The Tooth Boutique', 'Cómo funciona el blanqueamiento dental en una sola sesión de 30 minutos.', blanqueamientoSteps),
   breadcrumbNode([{ name: 'Blanqueamiento Dental', path: m.path }]),
 ]);
 
@@ -53,7 +53,7 @@ export default function BlanqueamientoPage() {
         id="como-funciona"
         titleLine1="Así de simple."
         titleLine2="Así de rápido."
-        intro="Blanqueamiento dental en San Salvador en una sola sesión. Gel profesional, luz LED y 10 minutos."
+        intro="Una sola sesión de 30 minutos. Gel profesional, luz LED y resultado el mismo día."
         steps={blanqueamientoSteps}
         bg="bg"
       />
@@ -75,14 +75,14 @@ export default function BlanqueamientoPage() {
         rows={blanqueamientoAftercare.rows}
         bg="bg"
       />
-      <StatementStrip line1="Antes salías del consultorio igual que entraste." line2="Ahora sales en 10 minutos con otra sonrisa." />
+      <StatementStrip line1="Antes necesitabas varias sesiones para notar algo." line2="Aquí sales de una sola con otra sonrisa." />
       <DoctorMini {...blanqueamientoDoctor} bg="surface" />
       <FAQAccordion title="Preguntas frecuentes sobre blanqueamiento" faqs={blanqueamientoFaqs} />
       <RelatedServices current="blanqueamiento" />
       <CTABanner
         line1="Tu sonrisa más blanca"
         line2="te espera."
-        text="Una sola sesión de 10 minutos. Sin compromiso, sin varias visitas. Escríbenos y agendamos."
+        text="Una sola sesión de 30 minutos. Sin varias visitas, sin esperar semanas. Escríbenos y agendamos."
         cta="Agendar cita por WhatsApp"
       />
     </main>

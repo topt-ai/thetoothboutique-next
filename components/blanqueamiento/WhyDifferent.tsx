@@ -43,7 +43,7 @@ export default function WhyDifferent() {
             <span className="italic font-normal">que ya conoces.</span>
           </h2>
           <p className="blanq-diff-element font-body font-light text-[17px] text-muted max-w-[560px] leading-[1.7]">
-            Los blanqueamientos tradicionales toman 45 minutos o más, a veces en varias sesiones. Este no.
+            Los blanqueamientos tradicionales necesitan varias sesiones para que se note una diferencia real. Este no.
           </p>
         </div>
 
@@ -55,8 +55,8 @@ export default function WhyDifferent() {
             </h3>
             <div className="flex flex-col gap-5">
               {[
-                '45 minutos o más por sesión',
-                'Varias sesiones para ver resultado',
+                'Varias sesiones repartidas en semanas',
+                'Cambio poco visible después de la primera',
                 'Sensibilidad frecuente después de la sesión',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
@@ -74,8 +74,8 @@ export default function WhyDifferent() {
             </h3>
             <div className="flex flex-col gap-5">
               {[
-                '10 minutos por sesión',
-                'Una sola visita, resultado inmediato',
+                'Una sola sesión de 30 minutos',
+                'Resultado visible al salir',
                 'Hasta 7 tonos más blanco ese mismo día',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">

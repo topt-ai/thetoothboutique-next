@@ -38,7 +38,7 @@ export default function DraMelissa() {
           <span className="font-mono text-[11px] text-accent tracking-[0.12em] uppercase mb-6 block">// La especialista</span>
 
           <h2 className="font-display font-bold text-[clamp(36px,4vw,60px)] text-[#FAFAF8] leading-[1.1] mb-10">
-            {DOCTOR.name}, ortodoncista en San Salvador<br />
+            {DOCTOR.name}<br />
             <span className="italic font-normal">Máster en Ortodoncia</span>
           </h2>
 

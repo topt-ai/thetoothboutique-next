@@ -58,7 +58,7 @@ export default function InvisalignPage() {
       />
       <ProcessSteps
         titleLine1="Proceso de Tratamiento"
-        titleLine2="Invisalign en San Salvador"
+        titleLine2="Invisalign"
         intro="Del escaneo al último alineador, sin moldes de yeso y con controles cada 4 semanas."
         steps={invisalignSteps}
         bg="bg"
@@ -72,7 +72,7 @@ export default function InvisalignPage() {
         right={invisalignCases.right}
         footnote={invisalignCases.footnote}
       />
-      <StatementStrip line1="La mayoría de clínicas te dicen que tardará 3 años." line2="Con nosotros, terminas antes." />
+      <StatementStrip line1="La mayoría de clínicas te dicen que tardará 5 años o más." line2="Con nosotros, terminas antes." />
       <DoctorMini {...invisalignDoctor} />
       <FAQAccordion title="Preguntas Frecuentes sobre Invisalign" faqs={invisalignFaqs} />
       <RelatedServices current="invisalign" />

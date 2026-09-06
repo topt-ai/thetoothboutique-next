@@ -83,7 +83,7 @@ export default function Hero() {
         </p>
 
         <p className="hero-text-element font-body font-light text-[18px] text-[rgba(250,250,248,0.75)] md:text-muted max-w-[480px] leading-[1.7] mb-8">
-          La Dra. Melissa Reneé y su equipo en Century Tower, Zona Rosa, combinan tecnología de primer nivel con tratamientos que terminan antes de lo que esperas.
+          La Dra. Melissa Reneé y su equipo combinan tecnología de primer nivel con tratamientos que terminan antes de lo que esperas.
         </p>
 
         <div className="hero-text-element flex flex-wrap items-center gap-3 font-mono text-[11px] text-[rgba(250,250,248,0.75)] md:text-muted mb-10">
@@ -109,10 +109,6 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Bottom Left Corner Text */}
-        <div className="hero-text-element absolute bottom-[90px] left-8 md:left-[8%] font-mono text-[10px] text-muted uppercase tracking-wider hidden md:block">
-          Century Tower · Zona Rosa · San Salvador
-        </div>
       </div>
 
       {/* Right Image - Desktop Only */}

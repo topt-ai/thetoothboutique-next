@@ -60,7 +60,7 @@ export default function BracketsPage() {
       <Advantages />
       <ProcessSteps
         titleLine1="Proceso de Tratamiento"
-        titleLine2="con Brackets en San Salvador"
+        titleLine2="con Brackets"
         intro="De la primera cita al retiro. Sin dolor en la colocación y con controles cortos cada 4 semanas."
         steps={bracketsSteps}
         bg="bg"
@@ -74,7 +74,7 @@ export default function BracketsPage() {
         right={bracketsCare.right}
         footnote={bracketsCare.footnote}
       />
-      <StatementStrip line1="En otros lugares te dicen que tardará 2 o 3 años." line2="Aquí terminamos antes." />
+      <StatementStrip line1="En otros lugares te dicen que tardará 5 años o más." line2="Aquí terminamos antes." />
       <DoctorMini {...bracketsDoctor} />
       <FAQAccordion title="Preguntas Frecuentes sobre Brackets" faqs={bracketsFaqs} />
       <RelatedServices current="brackets" />

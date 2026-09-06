@@ -8,7 +8,7 @@ export const SITE = {
   whatsapp: 'https://wa.me/50379056000',
   email: 'hola@thetoothboutique.com',
   address: {
-    street: 'Century Tower, Local 2A, Zona Rosa, frente a Centro Comercial Bambú',
+    street: 'Century Tower, Zona Rosa',
     short: 'Century Tower, Zona Rosa, San Salvador',
     locality: 'San Salvador',
     region: 'San Salvador',

@@ -60,7 +60,7 @@ const offerCatalog = {
       '@type': 'OfferCatalog',
       name: 'Blanqueamiento dental y limpieza profesional',
       itemListElement: [
-        procedure('Blanqueamiento Dental', 'Blanqueamiento dental profesional con resultados de 5 a 7 tonos más blanco en una sola sesión de 10 minutos.'),
+        procedure('Blanqueamiento Dental', 'Blanqueamiento dental profesional con resultados de 5 a 7 tonos más blanco en una sola sesión de 30 minutos.'),
         procedure('Profilaxis Dental', `Limpieza dental profesional que elimina placa, sarro y manchas superficiales. Sesión de 30 a 40 minutos, recomendada cada 6 meses, con un costo de $${SITE.prices.profilaxis}.`),
       ],
     },

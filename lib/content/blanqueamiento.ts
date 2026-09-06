@@ -5,11 +5,11 @@ import { SITE } from '@/lib/site';
 export const blanqueamientoMeta = {
   path: '/blanqueamiento',
   title: 'Blanqueamiento Dental San Salvador | De 5 a 7 tonos más blanco en una sola sesión – The Tooth Boutique',
-  description: 'Blanqueamiento dental en San Salvador en una sola sesión de 10 minutos. Resultados de 5 a 7 tonos más blanco. Century Tower, Zona Rosa. Agenda tu cita.',
+  description: 'Blanqueamiento dental en San Salvador en una sola sesión de 30 minutos. Resultados de 5 a 7 tonos más blanco. Century Tower, Zona Rosa. Agenda tu cita.',
   ogTitle: 'Blanqueamiento Dental San Salvador | The Tooth Boutique',
   image: '/blanqueamiento-dental-san-salvador.webp',
   serviceName: 'Blanqueamiento Dental San Salvador',
-  serviceDescription: 'Blanqueamiento dental profesional en San Salvador. De 5 a 7 tonos más blanco en una sola sesión de 10 minutos en The Tooth Boutique.',
+  serviceDescription: 'Blanqueamiento dental profesional en San Salvador. De 5 a 7 tonos más blanco en una sola sesión de 30 minutos en The Tooth Boutique.',
 };
 
 export const blanqueamientoHero = {
@@ -17,9 +17,9 @@ export const blanqueamientoHero = {
   h1: 'Blanqueamiento Dental en San Salvador',
   eyebrow: '// Blanqueamiento · Una sola sesión',
   taglineLine1: 'Una sonrisa más blanca.',
-  taglineLine2: 'En 10 minutos.',
+  taglineLine2: 'En una sola sesión.',
   text: 'Dale a tu sonrisa un nuevo comienzo. De 5 a 7 tonos más blanco después de una sola sesión.',
-  chips: ['Una sola sesión', '10 minutos', '5 a 7 tonos más blanco'],
+  chips: ['Una sola sesión', '30 minutos', '5 a 7 tonos más blanco'],
   cta: 'Agenda tu cita',
   secondary: { label: 'Ver cómo funciona', href: '#como-funciona' },
   image: blanqueamientoMeta.image,
@@ -28,7 +28,7 @@ export const blanqueamientoHero = {
 
 export const blanqueamientoSteps: Step[] = [
   { title: 'Llegas', body: 'Protegemos encías y labios para que el gel actúe solo sobre el esmalte. Te recuestas, escuchas música o ves tu celular.' },
-  { title: 'Aplicamos', body: 'Gel de peróxido en concentración profesional activado con luz LED. Actúa en 10 minutos. Sin dolor, sin sensación rara.' },
+  { title: 'Aplicamos', body: 'Gel de peróxido en concentración profesional activado con luz LED durante 30 minutos. Sin dolor, sin sensación rara.' },
   { title: 'Ves el resultado', body: 'Te entregamos un espejo. De 5 a 7 tonos más blanco ese mismo día. Sin esperas, sin varias sesiones.' },
 ];
 
@@ -60,7 +60,7 @@ export const blanqueamientoDoctor = {
   eyebrow: '// La especialista',
   subtitle: 'Especialista en ortodoncia y estética dental',
   text: 'En The Tooth Boutique el blanqueamiento no es un servicio de relleno. Es parte de una visión completa de tu sonrisa. La Dra. Reneé evalúa cada caso antes de aplicar el tratamiento: si tienes caries, restauraciones, sensibilidad extrema o manchas que no responden al peróxido, te lo dice antes de que gastes tiempo y dinero.',
-  bullets: ['Evaluación previa incluida en cada caso', 'Blanqueamiento antes o después de tu ortodoncia', 'Century Tower, Zona Rosa, San Salvador'],
+  bullets: ['Evaluación previa incluida en cada caso', 'Blanqueamiento antes o después de tu ortodoncia', 'Una sola sesión, resultado el mismo día'],
 };
 
 export const blanqueamientoFaqs: FAQ[] = [
@@ -76,7 +76,7 @@ export const blanqueamientoFaqs: FAQ[] = [
     question: '¿Cómo funciona el blanqueamiento dental en detalle?',
     answer: [
       'El blanqueamiento profesional usa peróxido de hidrógeno o peróxido de carbamida en concentraciones altas que solo un odontólogo puede manejar de forma segura. El gel se aplica directamente sobre el esmalte, penetra los túbulos dentinarios y descompone las moléculas pigmentadas que causan el color amarillento u oscuro de los dientes. El resultado es un blanco más claro, sin alterar la estructura del diente.',
-      'En The Tooth Boutique, en Century Tower, Zona Rosa, San Salvador, usamos un sistema de blanqueamiento que combina el gel con luz LED activadora. La luz acelera la reacción química del peróxido y permite obtener resultados de 5 a 7 tonos más blanco en una sola sesión de 10 minutos. Sistemas tradicionales requieren entre 45 y 60 minutos por sesión y a menudo varias citas para llegar al mismo nivel.',
+      'En The Tooth Boutique, en Century Tower, Zona Rosa, San Salvador, usamos un sistema de blanqueamiento que combina el gel con luz LED activadora. La luz acelera la reacción química del peróxido y permite obtener resultados de 5 a 7 tonos más blanco en una sola sesión de 30 minutos. Otros sistemas requieren varias citas repartidas en semanas para llegar al mismo nivel, y el cambio después de la primera suele ser poco visible.',
       'Antes del tratamiento protegemos las encías y los labios para que el gel solo actúe sobre el esmalte. Te recuestas cómodamente, escuchas música o ves tu celular mientras la luz hace el trabajo. No hay dolor, no hay sensación rara: es uno de los procedimientos más sencillos que ofrecemos.',
     ],
   },
@@ -84,7 +84,7 @@ export const blanqueamientoFaqs: FAQ[] = [
     question: '¿Qué diferencia hay entre el blanqueamiento profesional y los kits caseros?',
     answer: [
       'Los kits caseros que se venden en farmacias o por internet usan concentraciones bajas de peróxido (entre 3 % y 6 %) porque están pensados para ser manejados sin supervisión. Por seguridad, el cambio que producen es lento y limitado: meses de uso para uno o dos tonos, en el mejor de los casos.',
-      'El blanqueamiento profesional usa concentraciones de 25 % a 40 %, aplicadas en un ambiente controlado donde el odontólogo protege los tejidos blandos antes de empezar. Eso lo hace seguro a corto plazo y mucho más efectivo: lo que un kit casero logra en meses, una sesión profesional lo logra en minutos. Y como el procedimiento se hace una vez, no hay riesgo de uso prolongado, sensibilidad acumulada o lesiones por mal sellado de las férulas.',
+      'El blanqueamiento profesional usa concentraciones de 25 % a 40 %, aplicadas en un ambiente controlado donde el odontólogo protege los tejidos blandos antes de empezar. Eso lo hace seguro a corto plazo y mucho más efectivo: lo que un kit casero logra en meses, una sesión profesional lo logra en 30 minutos. Y como el procedimiento se hace una vez, no hay riesgo de uso prolongado, sensibilidad acumulada o lesiones por mal sellado de las férulas.',
       'Otra diferencia importante: el blanqueamiento profesional incluye una evaluación previa con la Dra. Melissa Reneé. Si tienes caries, restauraciones, sensibilidad extrema o manchas que no responden al peróxido, te avisamos antes de gastar tiempo y dinero. Los kits caseros no tienen ese filtro.',
     ],
   },
