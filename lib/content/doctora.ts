@@ -11,7 +11,7 @@ export const doctoraMeta = {
 
 // Solo datos confirmados: formación, certificación, año de fundación, tecnología de la clínica.
 export const doctoraBio = [
-  'La Dra. Melissa Reneé es ortodoncista en San Salvador y fundadora de The Tooth Boutique, en Century Tower, Zona Rosa. Realizó sus estudios de odontología en la Universidad Evangélica de El Salvador y se especializó en la Universidad Francisco Marroquín de Guatemala, donde obtuvo su Máster en Ortodoncia.',
+  'La Dra. Melissa Reneé es ortodoncista y fundadora de The Tooth Boutique. Realizó sus estudios de odontología en la Universidad Evangélica de El Salvador y se especializó en la Universidad Francisco Marroquín de Guatemala, donde obtuvo su Máster en Ortodoncia.',
   'Es Invisalign Doctor Provider, una certificación que Align Technology otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. En la práctica significa que planifica y trata casos con Invisalign todos los días, incluidos los casos complejos del sistema, y que el plan que diseña para tu boca se basa en casos reales, no en suposiciones.',
   'Fundó The Tooth Boutique en 2020 con una idea clara: tratamientos de ortodoncia que terminan antes de lo que el paciente espera, sin comprometer el resultado. Desde entonces ha construido una reputación basada en resultados reales y tiempos de tratamiento que superan los estándares del país.',
 ];
@@ -30,8 +30,8 @@ export const doctoraApproach = [
     body: 'Invisalign en promedio de 12 a 18 meses, brackets de 18 a 24 y menos con autoligados. Controles cada 4 semanas para que nada se atrase.',
   },
   {
-    title: 'Tecnología que no es común en el país',
-    body: 'Invisalign, escáner intraoral iTero, impresión 3D SprintRay, láser Ultradent, radiología Carestream, software Dolphin y materiales 3M y American Orthodontics.',
+    title: 'Tecnología de punta',
+    body: 'Un centro moderno con la mejor tecnología para planificar y transformar tu sonrisa: escaneo 3D, planificación digital y equipos que hacen el tratamiento más preciso y más corto.',
   },
 ];
 
@@ -39,7 +39,7 @@ export const doctoraCredentials = [
   { label: 'Especialidad', value: 'Máster en Ortodoncia, Universidad Francisco Marroquín, Guatemala' },
   { label: 'Formación', value: 'Odontología, Universidad Evangélica de El Salvador' },
   { label: 'Certificación', value: 'Invisalign Doctor Provider, Align Technology' },
-  { label: 'Clínica', value: `Fundadora de The Tooth Boutique, ${SITE.founded}. Century Tower, Zona Rosa, San Salvador` },
+  { label: 'Clínica', value: `Fundadora de The Tooth Boutique, ${SITE.founded}` },
 ];
 
 export const doctoraFaqs: FAQ[] = [
@@ -57,11 +57,11 @@ export const doctoraFaqs: FAQ[] = [
   },
   {
     question: '¿Dónde atiende la Dra. Melissa Reneé?',
-    answer: `En The Tooth Boutique, ${SITE.address.street}, San Salvador. Horario: ${SITE.hours.weekdays}, ${SITE.hours.saturday}. Atendemos pacientes de San Benito, Escalón, Maquilishuat, Antiguo Cuscatlán, Santa Tecla y Santa Elena.`,
+    answer: `En The Tooth Boutique, ${SITE.address.street}, San Salvador. Horario: ${SITE.hours.weekdays}, ${SITE.hours.saturday}.`,
   },
   {
     question: '¿Qué incluye la primera consulta con la doctora?',
-    answer: `La evaluación inicial cuesta $${SITE.prices.evaluacion} e incluye análisis facial, revisión clínica, escaneo 3D con iTero, fotografías extraorales e intraorales, diagnóstico y entrega del plan de tratamiento con el costo específico para tu caso. Las radiografías necesarias se toman en la misma clínica a $${SITE.prices.radiografia} cada una.`,
+    answer: `La evaluación inicial incluye revisión clínica completa, escaneo 3D con tecnología iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D, diagnóstico y entrega del plan de tratamiento con el costo específico para tu caso. Tiene un valor de $${SITE.prices.evaluacion}; las radiografías se toman en la misma clínica a $${SITE.prices.radiografia} cada una.`,
   },
   {
     question: '¿Cómo agendo una cita?',

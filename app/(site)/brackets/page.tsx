@@ -81,7 +81,7 @@ export default function BracketsPage() {
       <CTABanner
         line1="¿Quieres saber qué bracket"
         line2="es mejor para ti?"
-        text="Tu consulta inicial incluye: evaluación clínica, escaneo 3D y fotografías extraorales e intraorales."
+        text="Tu consulta inicial incluye: evaluación clínica, escaneo 3D, fotografías y radiografías."
         cta="Agenda tu consulta hoy"
       />
     </main>

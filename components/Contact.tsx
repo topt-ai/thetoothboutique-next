@@ -40,12 +40,6 @@ export default function Contact() {
                 </a>
               </div>
 
-              <div className="border-b border-white/10 pb-6">
-                <span className="font-mono text-[10px] text-accent uppercase tracking-wider block mb-2">ATENDEMOS PACIENTES DE</span>
-                <p className="font-body font-light text-[14px] text-[#FAFAF8]/75 leading-[1.6]">
-                  Zona Rosa, San Benito, Escalón, Maquilishuat, Antiguo Cuscatlán, Santa Tecla y Santa Elena.
-                </p>
-              </div>
             </div>
 
             {/* Social Icons */}

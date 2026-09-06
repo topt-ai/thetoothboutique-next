@@ -72,7 +72,7 @@ const offerCatalog = {
           '@type': 'Offer',
           price: String(SITE.prices.evaluacion),
           priceCurrency: 'USD',
-          itemOffered: { '@type': 'MedicalProcedure', name: 'Consulta de Ortodoncia', description: 'Evaluación inicial con análisis facial, escaneo 3D iTero, fotografías extraorales e intraorales y plan de tratamiento personalizado.' },
+          itemOffered: { '@type': 'MedicalProcedure', name: 'Consulta de Ortodoncia', description: 'Evaluación inicial con revisión clínica, escaneo 3D iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D, y plan de tratamiento personalizado.' },
         },
         {
           '@type': 'Offer',

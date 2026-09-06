@@ -15,11 +15,11 @@ export const invisalignMeta = {
 export const invisalignHero = {
   breadcrumb: 'Invisalign',
   h1: 'Invisalign en San Salvador',
-  eyebrow: '// Alineadores invisibles · Invisalign Doctor',
+  eyebrow: 'Alineadores invisibles',
   taglineLine1: 'Transforma tu sonrisa',
   taglineLine2: 'sin que nadie lo note.',
   text: 'Invisalign es el sistema de alineadores más avanzado del mundo. Discreto, cómodo y con resultados que se ven antes de lo que esperas.',
-  chips: ['Invisalign Doctor Provider', 'Tecnología iTero 3D', 'Sin alambres'],
+  chips: ['Invisalign Doctor Provider', 'Escaneo 3D sin moldes', 'Sin alambres'],
   cta: 'Agenda tu consulta',
   secondary: { label: 'Ver el proceso', href: '#proceso' },
   image: invisalignMeta.image,

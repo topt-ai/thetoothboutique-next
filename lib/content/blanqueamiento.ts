@@ -15,7 +15,7 @@ export const blanqueamientoMeta = {
 export const blanqueamientoHero = {
   breadcrumb: 'Blanqueamiento Dental',
   h1: 'Blanqueamiento Dental en San Salvador',
-  eyebrow: '// Blanqueamiento · Una sola sesión',
+  eyebrow: 'Una sola sesión',
   taglineLine1: 'Una sonrisa más blanca.',
   taglineLine2: 'En una sola sesión.',
   text: 'Dale a tu sonrisa un nuevo comienzo. De 5 a 7 tonos más blanco después de una sola sesión.',

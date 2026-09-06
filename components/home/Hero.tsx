@@ -48,7 +48,7 @@ export default function Hero() {
     <section
       ref={containerRef}
       id="inicio"
-      className="relative min-h-[100dvh] bg-bg flex flex-col md:flex-row overflow-hidden"
+      className="relative min-h-[100dvh] md:h-[100dvh] bg-bg flex flex-col md:flex-row overflow-hidden"
     >
       {/* Mobile Background Image + Overlay */}
       <div
@@ -70,29 +70,29 @@ export default function Hero() {
       {/* Left Copy */}
       <div
         ref={textRef}
-        className="w-full md:w-[55%] flex flex-col justify-end md:justify-center px-[6%] md:pl-[8%] pt-32 md:pt-0 pb-[100px] md:pb-0 z-10 min-h-[100dvh] md:min-h-0"
+        className="w-full md:w-[55%] flex flex-col justify-end md:justify-center px-[6%] md:pl-[8%] pt-28 md:pt-24 pb-[88px] md:pb-24 z-10 min-h-[100dvh] md:min-h-0 md:h-full"
       >
         {/* H1 semántico (categoría + ciudad) con el estilo del eyebrow; el slogan grande es un <p>. */}
-        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-6">
-          // Ortodoncista en San Salvador · Zona Rosa
+        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-5">
+          // Ortodoncista en San Salvador
         </h1>
 
-        <p className="hero-text-element font-display font-bold text-[clamp(52px,6vw,88px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-6">
+        <p className="hero-text-element font-display font-bold text-[clamp(44px,6vw,88px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-5">
           Sonríe Antes<br />
           <span className="italic font-normal">de lo que Imaginas</span>
         </p>
 
-        <p className="hero-text-element font-body font-light text-[18px] text-[rgba(250,250,248,0.75)] md:text-muted max-w-[480px] leading-[1.7] mb-8">
+        <p className="hero-text-element font-body font-light text-[16px] md:text-[18px] text-[rgba(250,250,248,0.75)] md:text-muted max-w-[480px] leading-[1.6] mb-6">
           La Dra. Melissa Reneé y su equipo combinan tecnología de primer nivel con tratamientos que terminan antes de lo que esperas.
         </p>
 
-        <div className="hero-text-element flex flex-wrap items-center gap-3 font-mono text-[11px] text-[rgba(250,250,248,0.75)] md:text-muted mb-10">
+        <div className="hero-text-element flex flex-wrap items-center gap-3 font-mono text-[11px] text-[rgba(250,250,248,0.75)] md:text-muted mb-7">
           <span>Invisalign Doctor</span>
           <span className="w-1 h-1 rounded-full bg-[rgba(250,250,248,0.3)] md:bg-muted/50"></span>
           <span>iTero Digital</span>
         </div>
 
-        <div className="hero-text-element flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-2">
+        <div className="hero-text-element flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
           <a
             href="https://wa.me/50379056000"
             target="_blank"
@@ -112,7 +112,7 @@ export default function Hero() {
       </div>
 
       {/* Right Image - Desktop Only */}
-      <div className="hidden md:block w-full md:w-[45%] h-[100dvh] relative">
+      <div className="hidden md:block w-full md:w-[45%] h-full relative">
         <div
           ref={imageRef}
           className="w-full h-full md:rounded-bl-[40px] overflow-hidden relative z-10"

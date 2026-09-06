@@ -15,7 +15,7 @@ export const bracketsMeta = {
 export const bracketsHero = {
   breadcrumb: 'Brackets',
   h1: 'Brackets en San Salvador',
-  eyebrow: '// Ortodoncia · Metálicos · Cerámicos · Autoligados',
+  eyebrow: 'Metálicos · Cerámicos · Autoligados',
   taglineLine1: 'Ortodoncia precisa.',
   taglineLine2: 'Para cada sonrisa.',
   text: 'Brackets metálicos, cerámicos o autoligados. Tres opciones, un mismo objetivo: terminar tu tratamiento antes de lo que esperas, con los resultados que mereces.',

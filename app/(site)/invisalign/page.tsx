@@ -79,7 +79,7 @@ export default function InvisalignPage() {
       <CTABanner
         line1="¿Listo para empezar?"
         line2="Da el primer paso."
-        text="Tu consulta inicial incluye: evaluación clínica, escaneo 3D y fotografías extraorales e intraorales."
+        text="Tu consulta inicial incluye: evaluación clínica, escaneo 3D, fotografías y radiografías."
         cta="Agenda tu consulta hoy"
       />
     </main>

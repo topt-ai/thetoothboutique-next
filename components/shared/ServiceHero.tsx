@@ -21,7 +21,9 @@ type Props = {
   imagePosition?: string;
 };
 
-// Hero de página interior. El H1 lleva servicio + ciudad; la frase grande es un <p>.
+// Hero de página interior. El H1 (servicio + ciudad) va en la línea pequeña tipo eyebrow,
+// igual que en la home; la frase grande es un <p>. La sección mide exactamente una
+// pantalla en escritorio para que el brand strip quede al filo sin hacer scroll.
 export default function ServiceHero({
   breadcrumb, h1, eyebrow, taglineLine1, taglineLine2, text, chips, cta, secondary, image, imageAlt, imagePosition = 'center top',
 }: Props) {
@@ -39,7 +41,7 @@ export default function ServiceHero({
   }, []);
 
   return (
-    <section ref={containerRef} className="relative min-h-[100dvh] bg-bg flex flex-col md:flex-row overflow-hidden">
+    <section ref={containerRef} className="relative min-h-[100dvh] md:h-[100dvh] bg-bg flex flex-col md:flex-row overflow-hidden">
       {/* Mobile Background Image + Overlay */}
       <div
         className="absolute inset-0 md:hidden z-0"
@@ -52,29 +54,25 @@ export default function ServiceHero({
       </div>
 
       {/* Left Copy */}
-      <div className="w-full md:w-[55%] flex flex-col justify-end md:justify-center px-[6%] md:pl-[8%] pt-32 md:pt-28 pb-[100px] md:pb-20 z-10 min-h-[100dvh] md:min-h-0">
-        <nav aria-label="Migas de pan" className="hero-text-element font-mono text-[10px] text-[rgba(250,250,248,0.6)] md:text-muted uppercase tracking-wider mb-6">
+      <div className="w-full md:w-[55%] flex flex-col justify-end md:justify-center px-[6%] md:pl-[8%] pt-28 md:pt-16 pb-[88px] md:pb-16 z-10 min-h-[100dvh] md:min-h-0 md:h-full">
+        <nav aria-label="Migas de pan" className="hero-text-element font-mono text-[10px] text-[rgba(250,250,248,0.6)] md:text-muted uppercase tracking-wider mb-4">
           <Link href="/" className="hover:text-accent transition-colors">Inicio</Link> / {breadcrumb}
         </nav>
 
-        <h1 className="hero-text-element font-display font-semibold text-[clamp(20px,2vw,28px)] text-[#FAFAF8] md:text-dark leading-tight mb-3">
-          {h1}
+        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-5">
+          // {h1} · {eyebrow}
         </h1>
 
-        <span className="hero-text-element font-mono text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-6">
-          {eyebrow}
-        </span>
-
-        <p className="hero-text-element font-display font-bold text-[clamp(44px,5.5vw,80px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-6">
+        <p className="hero-text-element font-display font-bold text-[clamp(38px,3.9vw,72px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-5">
           {taglineLine1}<br />
           <span className="italic font-normal">{taglineLine2}</span>
         </p>
 
-        <p className="hero-text-element font-body font-light text-[18px] text-[rgba(250,250,248,0.75)] md:text-muted max-w-[480px] leading-[1.7] mb-8">
+        <p className="hero-text-element font-body font-light text-[16px] md:text-[17px] text-[rgba(250,250,248,0.75)] md:text-muted max-w-[480px] leading-[1.6] mb-6">
           {text}
         </p>
 
-        <div className="hero-text-element flex flex-wrap items-center gap-3 font-mono text-[11px] text-[rgba(250,250,248,0.75)] md:text-muted mb-10">
+        <div className="hero-text-element flex flex-wrap items-center gap-x-3 gap-y-2 font-mono text-[11px] text-[rgba(250,250,248,0.75)] md:text-muted mb-7">
           {chips.map((chip, i) => (
             <span key={chip} className="flex items-center gap-3">
               {i > 0 && <span className="w-1 h-1 rounded-full bg-[rgba(250,250,248,0.3)] md:bg-muted/50"></span>}
@@ -83,7 +81,7 @@ export default function ServiceHero({
           ))}
         </div>
 
-        <div className="hero-text-element flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-2">
+        <div className="hero-text-element flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
           <a
             href={SITE.whatsapp}
             target="_blank"
@@ -102,7 +100,7 @@ export default function ServiceHero({
       </div>
 
       {/* Right Image - Desktop Only */}
-      <div className="hidden md:block w-full md:w-[45%] h-[100dvh] relative">
+      <div className="hidden md:block w-full md:w-[45%] h-full relative">
         <div ref={imageRef} className="w-full h-full md:rounded-bl-[40px] overflow-hidden relative z-10">
           <img src={image} alt={imageAlt} className="w-full h-full object-cover object-center" fetchPriority="high" />
           <div className="absolute inset-0 bg-dark/15 pointer-events-none"></div>

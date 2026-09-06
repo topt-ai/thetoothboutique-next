@@ -36,10 +36,10 @@ export default function DoctoraPage() {
       <ServiceHero
         breadcrumb={DOCTOR.name}
         h1={`${DOCTOR.name}, ortodoncista en San Salvador`}
-        eyebrow="// Máster en Ortodoncia · Invisalign Doctor Provider"
+        eyebrow="Máster en Ortodoncia"
         taglineLine1="Una doctora."
         taglineLine2="Tu caso, de principio a fin."
-        text="Fundadora de The Tooth Boutique en Zona Rosa. Ve cada caso personalmente desde la primera consulta hasta el último control."
+        text="Fundadora de The Tooth Boutique. Ve cada caso personalmente desde la primera consulta hasta el último control."
         chips={['Universidad Francisco Marroquín', 'Invisalign Doctor Provider', 'Desde 2020']}
         cta="Agenda tu evaluación"
         secondary={{ label: 'Conocer su formación', href: '#formacion' }}
@@ -111,7 +111,7 @@ export default function DoctoraPage() {
       <CTABanner
         line1="Tu caso, evaluado"
         line2="por la doctora."
-        text="La evaluación inicial incluye escaneo 3D, fotografías, diagnóstico y plan de tratamiento con el costo exacto para tu caso."
+        text="La evaluación inicial incluye escaneo 3D, fotografías, radiografías, diagnóstico y plan de tratamiento con el costo exacto para tu caso."
         cta="Agenda tu evaluación"
       />
     </main>
