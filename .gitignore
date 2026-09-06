@@ -1,6 +1,8 @@
 node_modules/
 build/
 dist/
+.next/
+out/
 coverage/
 .DS_Store
 *.log
@@ -8,3 +10,4 @@ coverage/
 !.env.example
 .vercel
 .claude/
+next-env.d.ts
