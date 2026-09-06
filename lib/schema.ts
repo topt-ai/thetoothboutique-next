@@ -123,7 +123,7 @@ export function clinicNode() {
       { '@type': 'OpeningHoursSpecification', dayOfWeek: 'Saturday', opens: '09:00', closes: '13:00' },
     ],
     hasOfferCatalog: offerCatalog,
-    aggregateRating: { '@type': 'AggregateRating', ratingValue: '5.0', reviewCount: '113', bestRating: '5', worstRating: '1' },
+    aggregateRating: { '@type': 'AggregateRating', ratingValue: '5.0', reviewCount: '124', bestRating: '5', worstRating: '1' },
     review: REVIEWS.map((r) => ({
       '@type': 'Review',
       author: { '@type': 'Person', name: r.name },
