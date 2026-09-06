@@ -73,8 +73,8 @@ export default function Hero() {
         className="w-full md:w-[55%] flex flex-col justify-end md:justify-center px-[6%] md:pl-[8%] pt-28 md:pt-24 pb-[88px] md:pb-24 z-10 min-h-[100dvh] md:min-h-0 md:h-full"
       >
         {/* H1 semántico (categoría + ciudad) con el estilo del eyebrow; el slogan grande es un <p>. */}
-        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-5">
-          // Ortodoncista en San Salvador
+        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-5 before:content-['//_']">
+          Ortodoncista en San Salvador
         </h1>
 
         <p className="hero-text-element font-display font-bold text-[clamp(44px,6vw,88px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-5">

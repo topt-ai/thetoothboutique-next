@@ -59,8 +59,8 @@ export default function ServiceHero({
           <Link href="/" className="hover:text-accent transition-colors">Inicio</Link> / {breadcrumb}
         </nav>
 
-        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-5">
-          // {h1} · {eyebrow}
+        <h1 className="hero-text-element font-mono font-normal text-[11px] text-white/70 md:text-accent tracking-[0.12em] uppercase mb-5 before:content-['//_']">
+          {h1} · {eyebrow}
         </h1>
 
         <p className="hero-text-element font-display font-bold text-[clamp(38px,3.9vw,72px)] text-[#FAFAF8] md:text-text leading-[1.05] mb-5">
