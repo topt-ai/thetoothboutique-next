@@ -29,7 +29,7 @@ export const invisalignHero = {
 export const invisalignSteps: Step[] = [
   { title: 'Consulta y evaluación', body: 'Revisamos tu sonrisa, hacemos el escaneo 3D con iTero y te decimos si eres candidato. Sin moldes de yeso.' },
   { title: 'Planificación digital', body: 'Diseñamos tu plan y te mostramos en pantalla cómo se moverán tus dientes mes a mes y cómo quedará tu sonrisa al final.' },
-  { title: 'Fabricación de alineadores', body: 'Align Technology fabrica tus alineadores a medida. Los recibimos en la clínica entre 2 y 4 semanas después.' },
+  { title: 'Fabricación de alineadores', body: 'Tus alineadores se imprimen a medida. Los recibimos en la clínica entre 2 y 4 semanas después.' },
   { title: 'Inicio del tratamiento', body: 'Te entregamos el primer juego, te explicamos cómo usarlos de 20 a 22 horas al día y resolvemos cada duda.' },
   { title: 'Controles cada 4 semanas', body: 'La doctora confirma que los movimientos van según el plan y te entrega los siguientes juegos. En algunos casos, cada 6 semanas.' },
 ];
@@ -55,7 +55,7 @@ export const invisalignCases = {
   right: {
     title: 'Invisalign trata',
     tone: 'positive' as const,
-    items: ['Dientes apiñados', 'Espacios entre dientes', 'Mordida abierta', 'Sobremordida', 'Submordida', 'Mordida cruzada'],
+    items: ['Dientes apiñados', 'Espacios entre dientes', 'Mordida abierta', 'Sobremordida', 'Mordida profunda', 'Mordida cruzada'],
   },
   footnote: 'Aun en los casos de la izquierda, muchas veces se puede iniciar con Invisalign y ajustar el plan según avanza el tratamiento. La única forma de saberlo con certeza es la evaluación: revisamos tu mordida, hacemos el escaneo 3D y te damos una respuesta directa.',
 };
@@ -63,7 +63,7 @@ export const invisalignCases = {
 export const invisalignDoctor = {
   eyebrow: '// Invisalign Doctor Provider',
   subtitle: 'Especialista certificada en Invisalign',
-  text: 'El programa Invisalign Doctor Provider es una certificación que Align Technology otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. Para ti significa planes que funcionan desde la primera entrega, acceso a herramientas como Invisalign Comprehensive y una doctora que ya vio antes lo que podría pasar en tu caso.',
+  text: 'El programa Invisalign Doctor Provider es una certificación que Invisalign otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. Para ti significa planes que funcionan desde la primera entrega, acceso a herramientas como Invisalign Comprehensive y una doctora que ya vio antes lo que podría pasar en tu caso.',
   bullets: ['Máster en Ortodoncia · Universidad Francisco Marroquín', 'Invisalign Doctor Provider · Casos complejos', 'Trata casos con Invisalign todos los días en The Tooth Boutique'],
 };
 
@@ -83,7 +83,7 @@ export const invisalignFaqs: FAQ[] = [
   {
     question: '¿Qué casos puede tratar Invisalign y cuáles no?',
     answer: [
-      'Invisalign trata la mayoría de los casos que tradicionalmente se hacían con brackets: dientes apiñados, espacios entre dientes, mordida abierta, sobremordida, submordida y mordida cruzada. La tecnología ha evolucionado tanto en los últimos años que hoy puede manejar casos complejos que antes solo se trataban con ortodoncia fija.',
+      'Invisalign trata la mayoría de los casos que tradicionalmente se hacían con brackets: dientes apiñados, espacios entre dientes, mordida abierta, sobremordida, mordida profunda y mordida cruzada. La tecnología ha evolucionado tanto en los últimos años que hoy puede manejar casos complejos que antes solo se trataban con ortodoncia fija.',
       'Los casos que pueden requerir un enfoque combinado o brackets tradicionales son aquellos con problemas esqueléticos severos, dientes que necesitan rotaciones extremas o cuando se requieren extracciones múltiples con cierre completo de espacios. Aun en esos casos, muchas veces se puede iniciar con Invisalign y ajustar el plan según avanza el tratamiento.',
       'La única forma de saber con certeza si eres candidato es con una evaluación clínica completa. En la consulta inicial revisamos tu mordida, hacemos el escaneo 3D y te damos una respuesta directa: sí, no, o un plan combinado.',
     ],
@@ -105,13 +105,13 @@ export const invisalignFaqs: FAQ[] = [
     answer: [
       'Tu tratamiento empieza con una consulta en nuestra clínica de Century Tower, Zona Rosa, San Salvador. La Dra. Melissa Reneé revisa tu sonrisa, conversa contigo sobre lo que quieres cambiar y evalúa si Invisalign es la mejor opción para tu caso.',
       'Si decides avanzar, el siguiente paso es el escaneo digital con tecnología iTero. Este escaneo 3D reemplaza los moldes incómodos de yeso de antes: en pocos minutos tenemos un modelo digital exacto de tu boca. Con esa información diseñamos tu plan de tratamiento y te mostramos en pantalla, antes de empezar, cómo se moverán tus dientes mes a mes y cómo se verá tu sonrisa al final.',
-      'Una vez apruebas el plan, Align Technology fabrica tus alineadores en sus laboratorios y los recibimos en la clínica entre dos y cuatro semanas. En la cita de entrega te explicamos cómo usarlos, te damos el primer juego y resolvemos cada duda. A partir de ahí vienes a controles cada 4 semanas aproximadamente para que la doctora confirme que los movimientos van según lo planeado.',
+      'Una vez apruebas el plan, tus alineadores se imprimen a medida y los recibimos en la clínica entre dos y cuatro semanas. En la cita de entrega te explicamos cómo usarlos, te damos el primer juego y resolvemos cada duda. A partir de ahí vienes a controles cada 4 semanas aproximadamente para que la doctora confirme que los movimientos van según lo planeado.',
     ],
   },
   {
     question: '¿Por qué importa que tu ortodoncista sea Invisalign Doctor Provider?',
     answer: [
-      'El programa Invisalign Doctor Provider es una certificación que Align Technology otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. No cualquier ortodoncista en El Salvador califica: el nivel se gana con casos reales y formación continua en la tecnología.',
+      'El programa Invisalign Doctor Provider es una certificación que Invisalign otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. No cualquier ortodoncista en El Salvador califica: el nivel se gana con casos reales y formación continua en la tecnología.',
       'Para ti como paciente eso se traduce en tres cosas. Primero, mayor experiencia interpretando escaneos y diseñando planes de tratamiento que funcionan desde la primera entrega. Segundo, acceso a herramientas avanzadas como Invisalign Comprehensive y técnicas que requieren entrenamiento específico. Y tercero, un manejo más fluido de imprevistos, porque la doctora ya vio antes lo que podría pasar.',
       'La Dra. Melissa Reneé es Invisalign Doctor Provider y trata casos en The Tooth Boutique todos los días. Eso significa que el plan que diseña para tu boca se basa en cientos de casos previos, no en suposiciones.',
     ],

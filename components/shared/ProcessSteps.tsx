@@ -65,9 +65,9 @@ export default function ProcessSteps({ id = 'proceso', eyebrow = '// El proceso'
             {steps.map((step, index) => (
               <div key={index} className="process-step flex-1 flex flex-col items-start relative">
                 {index !== steps.length - 1 && (
-                  <div className="md:hidden absolute top-[40px] left-[19px] w-[1px] h-[calc(100%+24px)] border-l border-dashed border-[#4ABFBF]/30 z-0"></div>
+                  <div className="md:hidden absolute top-[48px] left-[19px] w-[1px] h-[calc(100%-8px)] border-l border-dashed border-[#4ABFBF]/30 z-0"></div>
                 )}
-                <div className="w-10 h-10 rounded-full bg-[#4ABFBF]/12 flex items-center justify-center font-mono font-semibold text-[14px] text-accent mb-6 relative z-10">
+                <div className="w-10 h-10 rounded-full bg-[#EAF7F7] flex items-center justify-center font-mono font-semibold text-[14px] text-accent mb-6 relative z-10">
                   {String(index + 1).padStart(2, '0')}
                 </div>
                 <h3 className="font-body font-semibold text-[15px] text-dark mb-3">{step.title}</h3>

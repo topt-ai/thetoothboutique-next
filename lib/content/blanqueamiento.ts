@@ -27,8 +27,8 @@ export const blanqueamientoHero = {
 };
 
 export const blanqueamientoSteps: Step[] = [
-  { title: 'Llegas', body: 'Protegemos encías y labios para que el gel actúe solo sobre el esmalte. Te recuestas, escuchas música o ves tu celular.' },
-  { title: 'Aplicamos', body: 'Gel de peróxido en concentración profesional activado con luz LED durante 30 minutos. Sin dolor, sin sensación rara.' },
+  { title: 'Llegas', body: 'Protegemos encías y labios para que el gel actúe solo sobre el esmalte.' },
+  { title: 'Aplicamos', body: 'Gel de peróxido en concentración profesional activado con luz LED durante 30 minutos. Sin dolor.' },
   { title: 'Ves el resultado', body: 'Te entregamos un espejo. De 5 a 7 tonos más blanco ese mismo día. Sin esperas, sin varias sesiones.' },
 ];
 
@@ -43,7 +43,7 @@ export const blanqueamientoCandidates = {
     tone: 'positive' as const,
     items: ['Dientes naturales sanos y encías en buen estado', 'Manchas por café, té, vino, tabaco o alimentos', 'Tono amarillento por envejecimiento natural del esmalte', 'Antes de empezar ortodoncia o al retirar los brackets'],
   },
-  footnote: 'Las manchas por fluorosis, tetraciclinas o trauma responden parcialmente al peróxido: el blanqueamiento mejora el tono general pero puede no eliminarlas por completo. Eso lo evaluamos en la consulta, antes de cualquier compromiso.',
+  footnote: 'Las manchas por fluorosis, tetraciclinas o trauma responden parcialmente al peróxido: el blanqueamiento mejora el tono general pero puede no eliminarlas por completo. Eso lo evaluamos en la consulta.',
 };
 
 export const blanqueamientoAftercare = {
@@ -58,8 +58,8 @@ export const blanqueamientoAftercare = {
 
 export const blanqueamientoDoctor = {
   eyebrow: '// La especialista',
-  subtitle: 'Especialista en ortodoncia y estética dental',
-  text: 'En The Tooth Boutique el blanqueamiento no es un servicio de relleno. Es parte de una visión completa de tu sonrisa. La Dra. Reneé evalúa cada caso antes de aplicar el tratamiento: si tienes caries, restauraciones, sensibilidad extrema o manchas que no responden al peróxido, te lo dice antes de que gastes tiempo y dinero.',
+  subtitle: 'Máster en Ortodoncia',
+  text: 'En The Tooth Boutique el blanqueamiento es parte de una visión completa de tu sonrisa. La Dra. Reneé evalúa cada caso antes de aplicar el tratamiento: si tienes caries, restauraciones, sensibilidad extrema o manchas que no responden al peróxido, te lo dice antes.',
   bullets: ['Evaluación previa incluida en cada caso', 'Blanqueamiento antes o después de tu ortodoncia', 'Una sola sesión, resultado el mismo día'],
 };
 
@@ -77,7 +77,7 @@ export const blanqueamientoFaqs: FAQ[] = [
     answer: [
       'El blanqueamiento profesional usa peróxido de hidrógeno o peróxido de carbamida en concentraciones altas que solo un odontólogo puede manejar de forma segura. El gel se aplica directamente sobre el esmalte, penetra los túbulos dentinarios y descompone las moléculas pigmentadas que causan el color amarillento u oscuro de los dientes. El resultado es un blanco más claro, sin alterar la estructura del diente.',
       'En The Tooth Boutique, en Century Tower, Zona Rosa, San Salvador, usamos un sistema de blanqueamiento que combina el gel con luz LED activadora. La luz acelera la reacción química del peróxido y permite obtener resultados de 5 a 7 tonos más blanco en una sola sesión de 30 minutos. Otros sistemas requieren varias citas repartidas en semanas para llegar al mismo nivel, y el cambio después de la primera suele ser poco visible.',
-      'Antes del tratamiento protegemos las encías y los labios para que el gel solo actúe sobre el esmalte. Te recuestas cómodamente, escuchas música o ves tu celular mientras la luz hace el trabajo. No hay dolor, no hay sensación rara: es uno de los procedimientos más sencillos que ofrecemos.',
+      'Antes del tratamiento protegemos las encías y los labios para que el gel solo actúe sobre el esmalte. No hay dolor: es uno de los procedimientos más sencillos que ofrecemos.',
     ],
   },
   {
@@ -101,7 +101,7 @@ export const blanqueamientoFaqs: FAQ[] = [
     answer: [
       'El candidato ideal tiene dientes naturales sanos, sin caries activas, con encías en buen estado y manchas causadas por alimentos, bebidas, tabaco o el envejecimiento normal del esmalte. En esos casos el resultado es excelente y predecible.',
       'No se recomienda hacer blanqueamiento si hay caries sin tratar, restauraciones grandes en dientes frontales (porque las resinas y porcelanas no blanquean), embarazo o lactancia, o sensibilidad dental severa sin tratar. Tampoco se recomienda en pacientes muy jóvenes cuyos dientes aún están en formación.',
-      'Las manchas por fluorosis, tetraciclinas o trauma responden parcialmente al peróxido. En esos casos el blanqueamiento puede mejorar el tono general pero no eliminar las manchas por completo, y en algunos casos el paciente puede necesitar otro tipo de procedimiento estético que no realizamos en la clínica. Eso te lo decimos con claridad en la consulta inicial, antes de cualquier compromiso.',
+      'Las manchas por fluorosis, tetraciclinas o trauma responden parcialmente al peróxido. En esos casos el blanqueamiento puede mejorar el tono general pero no eliminar las manchas por completo, y en algunos casos el paciente puede necesitar otro tipo de procedimiento estético que no realizamos en la clínica. Eso te lo decimos con claridad en la consulta inicial.',
     ],
   },
   {

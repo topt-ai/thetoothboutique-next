@@ -75,7 +75,7 @@ export default function BlanqueamientoPage() {
         rows={blanqueamientoAftercare.rows}
         bg="bg"
       />
-      <StatementStrip line1="Antes necesitabas varias sesiones para notar algo." line2="Aquí sales de una sola con otra sonrisa." />
+      <StatementStrip line1="Antes necesitabas varias sesiones para notar algo." line2="Aquí solo necesitas una sesión." />
       <DoctorMini {...blanqueamientoDoctor} bg="surface" />
       <FAQAccordion title="Preguntas frecuentes sobre blanqueamiento" faqs={blanqueamientoFaqs} />
       <RelatedServices current="blanqueamiento" />
