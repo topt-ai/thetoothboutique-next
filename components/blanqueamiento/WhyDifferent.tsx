@@ -56,7 +56,7 @@ export default function WhyDifferent() {
             <div className="flex flex-col gap-5">
               {[
                 'Varias sesiones repartidas en semanas',
-                'Cambio poco visible después de la primera',
+                'Cambio poco visible después de la primera sesión',
                 'Sensibilidad frecuente después de la sesión',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">

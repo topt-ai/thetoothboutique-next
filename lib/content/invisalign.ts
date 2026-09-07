@@ -27,7 +27,7 @@ export const invisalignHero = {
 };
 
 export const invisalignSteps: Step[] = [
-  { title: 'Consulta y evaluación', body: 'Revisamos tu sonrisa, hacemos el escaneo 3D con iTero y te decimos si eres candidato. Sin moldes de yeso.' },
+  { title: 'Consulta y evaluación', body: 'Revisamos tu sonrisa, hacemos el escaneo 3D y te decimos si eres candidato. Sin moldes de yeso.' },
   { title: 'Planificación digital', body: 'Diseñamos tu plan y te mostramos en pantalla cómo se moverán tus dientes mes a mes y cómo quedará tu sonrisa al final.' },
   { title: 'Fabricación de alineadores', body: 'Tus alineadores se imprimen a medida. Los recibimos en la clínica entre 2 y 4 semanas después.' },
   { title: 'Inicio del tratamiento', body: 'Te entregamos el primer juego, te explicamos cómo usarlos de 20 a 22 horas al día y resolvemos cada duda.' },
@@ -50,7 +50,7 @@ export const invisalignCases = {
   left: {
     title: 'Puede necesitar un plan combinado',
     tone: 'negative' as const,
-    items: ['Problemas esqueléticos severos', 'Dientes que necesitan rotaciones extremas', 'Extracciones múltiples con cierre completo de espacios'],
+    items: ['Problemas severos en la posición de los maxilares', 'Dientes que necesitan girar mucho', 'Casos donde hay que sacar varias piezas y cerrar todos los espacios'],
   },
   right: {
     title: 'Invisalign trata',
@@ -63,7 +63,7 @@ export const invisalignCases = {
 export const invisalignDoctor = {
   eyebrow: '// Invisalign Doctor Provider',
   subtitle: 'Especialista certificada en Invisalign',
-  text: 'El programa Invisalign Doctor Provider es una certificación que Invisalign otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. Para ti significa planes que funcionan desde la primera entrega, acceso a herramientas como Invisalign Comprehensive y una doctora que ya vio antes lo que podría pasar en tu caso.',
+  text: 'Invisalign Doctor Provider significa que la Dra. Reneé está autorizada por Invisalign para planificar y realizar tratamientos con sus alineadores. Ve tu caso desde el primer escaneo hasta el último alineador.',
   bullets: ['Máster en Ortodoncia · Universidad Francisco Marroquín', 'Invisalign Doctor Provider · Casos complejos', 'Trata casos con Invisalign todos los días en The Tooth Boutique'],
 };
 
@@ -84,19 +84,19 @@ export const invisalignFaqs: FAQ[] = [
     question: '¿Qué casos puede tratar Invisalign y cuáles no?',
     answer: [
       'Invisalign trata la mayoría de los casos que tradicionalmente se hacían con brackets: dientes apiñados, espacios entre dientes, mordida abierta, sobremordida, mordida profunda y mordida cruzada. La tecnología ha evolucionado tanto en los últimos años que hoy puede manejar casos complejos que antes solo se trataban con ortodoncia fija.',
-      'Los casos que pueden requerir un enfoque combinado o brackets tradicionales son aquellos con problemas esqueléticos severos, dientes que necesitan rotaciones extremas o cuando se requieren extracciones múltiples con cierre completo de espacios. Aun en esos casos, muchas veces se puede iniciar con Invisalign y ajustar el plan según avanza el tratamiento.',
+      'Los casos que pueden requerir un enfoque combinado o brackets tradicionales son los que tienen problemas severos en la posición de los maxilares, dientes que necesitan girar mucho o casos donde hay que sacar varias piezas y cerrar todos los espacios. Aun en esos casos, muchas veces se puede iniciar con Invisalign y ajustar el plan según avanza el tratamiento.',
       'La única forma de saber con certeza si eres candidato es con una evaluación clínica completa. En la consulta inicial revisamos tu mordida, hacemos el escaneo 3D y te damos una respuesta directa: sí, no, o un plan combinado.',
     ],
   },
   {
     question: '¿Cuánto cuesta el tratamiento con Invisalign?',
-    answer: `El costo de Invisalign varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
+    answer: `El costo de Invisalign varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} dólares que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
   },
   {
     question: '¿Qué hace diferente a Invisalign frente a los brackets tradicionales?',
     answer: [
-      'Invisalign cambió la ortodoncia moderna porque elimina los alambres y los brackets fijos. En lugar de eso, el tratamiento se basa en una serie de alineadores transparentes hechos a la medida que vas cambiando cada una a dos semanas. Cada férula mueve los dientes una fracción de milímetro siguiendo un plan digital diseñado desde el primer día.',
-      'La diferencia más obvia es estética: nadie nota que estás usando ortodoncia. Pero hay otras ventajas igual de importantes. Los alineadores son removibles, así que comes lo que quieras y te cepillas como siempre. No hay heridas en mejillas o labios por roces de alambres. Y como cada alineador está diseñado por computadora con base en tu escaneo 3D, los movimientos son más predecibles que con un arco metálico tradicional.',
+      'Invisalign cambió la ortodoncia moderna porque elimina los alambres y los brackets fijos. En lugar de eso, el tratamiento se basa en una serie de alineadores transparentes hechos a la medida que vas cambiando cada una a dos semanas. Cada alineador mueve los dientes una fracción de milímetro siguiendo un plan digital diseñado desde el primer día.',
+      'La diferencia más obvia es estética: nadie nota que estás usando ortodoncia. Pero hay otras ventajas igual de importantes. Los alineadores son removibles, así que comes lo que quieras y te cepillas como siempre. No hay heridas en mejillas o labios por roces de alambres. Y como cada alineador está diseñado por computadora con base en tu escaneo 3D, los movimientos son más predecibles que con los brackets tradicionales.',
       'Las consultas de control son normalmente cada 4 semanas, con controles ocasionales cada 6 semanas según el caso. Eso libera tiempo para vida real, trabajo y viajes sin tener que ajustar tu agenda al ritmo del consultorio.',
     ],
   },
@@ -104,24 +104,20 @@ export const invisalignFaqs: FAQ[] = [
     question: '¿Cómo es el proceso paso a paso en The Tooth Boutique?',
     answer: [
       'Tu tratamiento empieza con una consulta en nuestra clínica de Century Tower, Zona Rosa, San Salvador. La Dra. Melissa Reneé revisa tu sonrisa, conversa contigo sobre lo que quieres cambiar y evalúa si Invisalign es la mejor opción para tu caso.',
-      'Si decides avanzar, el siguiente paso es el escaneo digital con tecnología iTero. Este escaneo 3D reemplaza los moldes incómodos de yeso de antes: en pocos minutos tenemos un modelo digital exacto de tu boca. Con esa información diseñamos tu plan de tratamiento y te mostramos en pantalla, antes de empezar, cómo se moverán tus dientes mes a mes y cómo se verá tu sonrisa al final.',
+      'Si decides avanzar, el siguiente paso es el escaneo digital 3D. Este escaneo reemplaza los moldes incómodos de yeso de antes: en pocos minutos tenemos un modelo digital exacto de tu boca. Con esa información diseñamos tu plan de tratamiento y te mostramos en pantalla, antes de empezar, cómo se moverán tus dientes mes a mes y cómo se verá tu sonrisa al final.',
       'Una vez apruebas el plan, tus alineadores se imprimen a medida y los recibimos en la clínica entre dos y cuatro semanas. En la cita de entrega te explicamos cómo usarlos, te damos el primer juego y resolvemos cada duda. A partir de ahí vienes a controles cada 4 semanas aproximadamente para que la doctora confirme que los movimientos van según lo planeado.',
     ],
   },
   {
-    question: '¿Por qué importa que tu ortodoncista sea Invisalign Doctor Provider?',
-    answer: [
-      'El programa Invisalign Doctor Provider es una certificación que Invisalign otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. No cualquier ortodoncista en El Salvador califica: el nivel se gana con casos reales y formación continua en la tecnología.',
-      'Para ti como paciente eso se traduce en tres cosas. Primero, mayor experiencia interpretando escaneos y diseñando planes de tratamiento que funcionan desde la primera entrega. Segundo, acceso a herramientas avanzadas como Invisalign Comprehensive y técnicas que requieren entrenamiento específico. Y tercero, un manejo más fluido de imprevistos, porque la doctora ya vio antes lo que podría pasar.',
-      'La Dra. Melissa Reneé es Invisalign Doctor Provider y trata casos en The Tooth Boutique todos los días. Eso significa que el plan que diseña para tu boca se basa en cientos de casos previos, no en suposiciones.',
-    ],
+    question: '¿Qué significa que la doctora sea Invisalign Doctor Provider?',
+    answer: 'Que está autorizada por Invisalign para planificar y realizar el tratamiento con sus alineadores. La Dra. Melissa Reneé es Invisalign Doctor Provider y trata casos con Invisalign en The Tooth Boutique todos los días.',
   },
   {
     question: '¿Qué puedo esperar mes a mes con Invisalign?',
     answer: [
       'El primer mes es el de adaptación. Aprendes a poner y quitar los alineadores, te acostumbras a hablar con ellos puestos y al ritmo de cambiarlos cada una a dos semanas. La mayoría de pacientes sienten los alineadores como parte de su día a día en una a dos semanas.',
-      'Entre los meses 3 y 6 ya hay cambios visibles. Dientes que estaban torcidos empiezan a alinearse, los espacios se cierran y la mordida cambia. Es el período más motivador del tratamiento porque ves los resultados de tu compromiso. Si tu plan incluye attachments, pequeños puntos de composite del color del diente que ayudan a mover dientes específicos, se colocan al inicio y se retiran al final.',
-      'Del mes 6 al 12 los movimientos se vuelven más sutiles pero el resultado total se va consolidando. Hacia el final del tratamiento se hacen los ajustes finos, y muchas veces se piden alineadores adicionales (refinamientos) para perfeccionar detalles. Cuando llega el último alineador empiezas con retenedores, esenciales para mantener los resultados a largo plazo.',
+      'Entre los meses 3 y 6 ya hay cambios visibles. Dientes que estaban torcidos empiezan a alinearse, los espacios se cierran y la mordida cambia. Es el período más motivador del tratamiento porque ves los resultados de tu compromiso. Si tu plan incluye pequeños puntos del color del diente que ayudan a mover dientes específicos, se colocan al inicio y se retiran al final.',
+      'Del mes 6 al 12 los movimientos se vuelven más sutiles pero el resultado total se va consolidando. Hacia el final del tratamiento se hacen los ajustes finos, y muchas veces se piden alineadores adicionales para perfeccionar detalles. Cuando llega el último alineador empiezas con retenedores, esenciales para mantener los resultados a largo plazo.',
     ],
   },
   {

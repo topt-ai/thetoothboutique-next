@@ -37,8 +37,8 @@ export const bracketsSteps: Step[] = [
 export const bracketsComparison = {
   columns: ['Metálicos', 'Cerámicos', 'Autoligados'],
   rows: [
-    { label: 'Apariencia', values: ['Acero quirúrgico, visibles.', 'Del color del diente. Casi imperceptibles a un metro.', 'Metálicos o cerámicos, según el modelo.'] },
-    { label: 'Cómo sostienen el alambre', values: ['Ligas elásticas.', 'Ligas elásticas.', 'Compuerta integrada, sin ligas.'] },
+    { label: 'Apariencia', values: ['Metálicos, visibles.', 'Del color del diente. Casi imperceptibles a un metro.', 'Metálicos o cerámicos, según el modelo.'] },
+    { label: 'Cómo sostienen el alambre', values: ['Con ligas.', 'Con ligas.', 'Sin ligas: el bracket sujeta el alambre por sí solo.'] },
     { label: 'Fricción y comodidad', values: ['Estándar.', 'Estándar.', 'Menos fricción, movimientos más eficientes.'] },
     { label: 'Tiempo de tratamiento', values: ['18 a 24 meses en promedio.', '18 a 24 meses en promedio.', 'Hasta 6 meses menos en casos comparables.'] },
     { label: 'Higiene', values: ['Placa se acumula en las ligas.', 'Placa se acumula en las ligas.', 'Más fáciles de mantener limpios.'] },
@@ -81,8 +81,8 @@ export const bracketsFaqs: FAQ[] = [
     question: '¿Cuál es la diferencia entre brackets metálicos, cerámicos y autoligados?',
     answer: [
       'Los tres tipos de brackets corrigen los mismos problemas: dientes apiñados, espacios, mordida desalineada y rotaciones. La diferencia está en la apariencia, la tecnología detrás del sistema y, en algunos casos, en el tiempo total de tratamiento.',
-      'Los metálicos son los más conocidos. Son piezas de acero quirúrgico que se adhieren al esmalte y se conectan con un alambre que aplica fuerzas controladas. Son los más resistentes, los más económicos y los que tienen el historial clínico más largo. Los cerámicos funcionan exactamente igual pero las piezas son del color del diente, casi imperceptibles a un metro de distancia. Cuestan un poco más pero son la opción favorita de pacientes adultos en San Salvador que prefieren algo discreto sin pasarse a Invisalign.',
-      'Los autoligados eliminan las ligas elásticas que sostienen el alambre. En su lugar, cada bracket tiene una compuerta integrada que mantiene el alambre en su sitio. Eso reduce la fricción, permite movimientos más eficientes y suele acortar el tratamiento. Además son más fáciles de mantener limpios porque no se acumula placa en las ligas.',
+      'Los metálicos son los más conocidos. Son piezas metálicas que se pegan al diente y se conectan con un alambre que aplica fuerzas controladas. Son los más resistentes, los más económicos y los que tienen el historial clínico más largo. Los cerámicos funcionan exactamente igual pero las piezas son del color del diente, casi imperceptibles a un metro de distancia. Cuestan un poco más pero son la opción favorita de pacientes adultos en San Salvador que prefieren algo discreto sin pasarse a Invisalign.',
+      'Los autoligados no usan las ligas que sostienen el alambre. El bracket mismo lo sujeta. Eso reduce la fricción, permite movimientos más eficientes y suele acortar el tratamiento. Además son más fáciles de mantener limpios porque no se acumula placa en las ligas.',
     ],
   },
   {
@@ -111,14 +111,14 @@ export const bracketsFaqs: FAQ[] = [
   {
     question: '¿Por qué los brackets autoligados son más rápidos?',
     answer: [
-      'El sistema autoligado nació para resolver una limitación de los brackets tradicionales: la fricción entre el alambre y la liga elástica que lo sostiene. Esa fricción frena los movimientos. Al eliminar la liga y reemplazarla por una compuerta deslizante, el alambre se mueve con menos resistencia y los dientes responden más rápido.',
+      'El sistema autoligado nació para resolver una limitación de los brackets tradicionales: el roce entre el alambre y la liga que lo sostiene. Ese roce frena los movimientos. Sin la liga, el alambre se mueve con menos resistencia y los dientes responden más rápido.',
       'En la práctica eso se traduce en tratamientos que pueden ser hasta 6 meses más cortos en casos comparables y citas de control más espaciadas. Como el sistema requiere menos ajustes mecánicos, las visitas mensuales pueden pasar a ser bimestrales, lo cual es una ventaja real para gente con agendas ocupadas.',
       'Hay un detalle importante: la rapidez también depende del paciente. Asistir a tus citas, mantener la higiene y cuidar los brackets sigue siendo lo que más impacta el tiempo final. Los autoligados aceleran el sistema, no eliminan tu parte del trabajo.',
     ],
   },
   {
     question: '¿Cuánto cuesta el tratamiento de brackets en San Salvador?',
-    answer: `El costo de los brackets varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
+    answer: `El costo de los brackets varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} dólares que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
   },
   {
     question: '¿Cuántas veces vengo a control durante el tratamiento?',
@@ -136,7 +136,7 @@ export const bracketsFaqs: FAQ[] = [
     question: '¿Qué pasa después de retirar los brackets?',
     answer: [
       'El día que te retiramos los brackets no termina el tratamiento, empieza una fase nueva: la retención. Los dientes recién posicionados tienen tendencia natural a regresar a su lugar original durante los primeros dos años. Por eso usar retenedores es lo que asegura que la inversión y el tiempo dedicado se mantengan.',
-      'Hay dos tipos principales: retenedores fijos, que son un alambre delgado pegado por dentro de los dientes inferiores y a veces superiores; y retenedores removibles, transparentes, parecidos a férulas que se usan principalmente de noche. La mayoría de nuestros pacientes terminan con una combinación de los dos.',
+      'Hay dos tipos principales: retenedores fijos, que son un alambre delgado pegado por dentro de los dientes inferiores y a veces superiores; y retenedores removibles, transparentes, que se usan principalmente de noche. La mayoría de nuestros pacientes terminan con una combinación de los dos.',
       'El compromiso con los retenedores nocturnos es de largo plazo: pasados los dos años, puedes reducir el uso a 2 o 3 veces por semana en la noche, pero no lo abandones. Esa pequeña costumbre es lo que mantiene tu sonrisa alineada para siempre.',
     ],
   },

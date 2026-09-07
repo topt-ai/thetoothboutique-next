@@ -89,7 +89,7 @@ export default function Hero() {
         <div className="hero-text-element flex flex-wrap items-center gap-3 font-mono text-[11px] text-[rgba(250,250,248,0.75)] md:text-muted mb-7">
           <span>Invisalign Doctor</span>
           <span className="w-1 h-1 rounded-full bg-[rgba(250,250,248,0.3)] md:bg-muted/50"></span>
-          <span>iTero Digital</span>
+          <span>Escaneo 3D</span>
         </div>
 
         <div className="hero-text-element flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">

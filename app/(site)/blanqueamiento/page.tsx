@@ -29,7 +29,7 @@ const service = serviceNode({
   name: m.serviceName,
   description: m.serviceDescription,
   image: m.image,
-  howPerformed: 'Gel de peróxido en concentración profesional aplicado sobre el esmalte con encías y labios protegidos, activado con luz LED durante una sola sesión de 30 minutos.',
+  howPerformed: 'Gel blanqueador en concentración profesional aplicado sobre el esmalte con encías y labios protegidos, activado con luz LED durante una sola sesión de 30 minutos.',
   followup: 'Dieta blanca durante 48 horas y profilaxis cada 6 meses. Sesión de mantenimiento opcional cada 12 a 18 meses.',
 });
 

@@ -10,7 +10,7 @@ const services = [
     body: 'Alineadores transparentes con resultados rápidos y discretos. Sin alambres, sin molestias. Ideal para adultos y profesionales que quieren sonreír con confianza desde el primer mes.',
     bullets: [
       'Invisalign Doctor Provider',
-      'Escaneo iTero 3D: ves el resultado antes de empezar',
+      'Escaneo 3D: ves el resultado antes de empezar',
       'Tratamientos de 12 a 18 meses en promedio',
     ],
     link: '/invisalign',

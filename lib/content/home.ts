@@ -37,11 +37,11 @@ export const homeFaqs: FAQ[] = [
   },
   {
     question: '¿Cuánto cuesta la primera consulta o evaluación en The Tooth Boutique?',
-    answer: `La evaluación inicial incluye escaneo dental en 3D, fotos extraorales e intraorales, diagnóstico y entrega del plan de tratamiento, con un valor de $${SITE.prices.evaluacion}. Adicionalmente se requieren dos radiografías, con un costo de $${SITE.prices.radiografia} cada una, tomadas en la misma clínica.`,
+    answer: `La evaluación inicial incluye escaneo dental en 3D, fotos extraorales e intraorales, diagnóstico y entrega del plan de tratamiento, con un valor de $${SITE.prices.evaluacion} dólares. Adicionalmente se requieren dos radiografías, con un costo de $${SITE.prices.radiografia} dólares cada una, tomadas en la misma clínica.`,
   },
   {
     question: '¿Cada cuánto debo hacerme una limpieza dental profesional?',
-    answer: `Se recomienda una profilaxis o limpieza dental profesional cada 6 meses. En The Tooth Boutique tiene un costo de $${SITE.prices.profilaxis}.`,
+    answer: `Se recomienda una profilaxis o limpieza dental profesional cada 6 meses. En The Tooth Boutique tiene un costo de $${SITE.prices.profilaxis} dólares.`,
   },
   {
     question: '¿La profilaxis dental quita las manchas de los dientes?',

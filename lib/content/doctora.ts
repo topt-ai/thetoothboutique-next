@@ -12,7 +12,7 @@ export const doctoraMeta = {
 // Solo datos confirmados: formación, certificación, año de fundación, tecnología de la clínica.
 export const doctoraBio = [
   'La Dra. Melissa Reneé es ortodoncista y fundadora de The Tooth Boutique. Realizó sus estudios de odontología en la Universidad Evangélica de El Salvador y se especializó en la Universidad Francisco Marroquín de Guatemala, donde obtuvo su Máster en Ortodoncia.',
-  'Es Invisalign Doctor Provider, una certificación que Invisalign otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año. En la práctica significa que planifica y trata casos con Invisalign todos los días, incluidos los casos complejos del sistema, y que el plan que diseña para tu boca se basa en casos reales, no en suposiciones.',
+  'Es Invisalign Doctor Provider: está autorizada por Invisalign para planificar y realizar tratamientos con sus alineadores, y los hace en la clínica todos los días.',
   'Fundó The Tooth Boutique en 2020 con una idea clara: tratamientos de ortodoncia que terminan antes de lo que el paciente espera, sin comprometer el resultado. Desde entonces ha construido una reputación basada en resultados reales y tiempos de tratamiento que superan los estándares del país.',
 ];
 
@@ -23,7 +23,7 @@ export const doctoraApproach = [
   },
   {
     title: 'Tu caso, tu plan',
-    body: 'No hay un tratamiento estándar. Cada plan se diseña para tu sonrisa desde el primer día, con escaneo iTero 3D, fotografías y radiografías tomadas en la misma clínica.',
+    body: 'No hay un tratamiento estándar. Cada plan se diseña para tu sonrisa desde el primer día, con escaneo 3D, fotografías y radiografías tomadas en la misma clínica.',
   },
   {
     title: 'Terminar antes',
@@ -49,7 +49,7 @@ export const doctoraFaqs: FAQ[] = [
   },
   {
     question: '¿Qué significa que sea Invisalign Doctor Provider?',
-    answer: 'Es la certificación que Invisalign otorga a los profesionales con experiencia comprobada y un volumen mínimo de casos completados al año con Invisalign. Para el paciente se traduce en más experiencia interpretando escaneos, acceso a herramientas como Invisalign Comprehensive y un manejo más fluido de imprevistos durante el tratamiento.',
+    answer: 'Que está autorizada por Invisalign para planificar y realizar tratamientos con sus alineadores. En la práctica, la doctora hace tratamientos con Invisalign todos los días en The Tooth Boutique.',
   },
   {
     question: '¿Atiende personalmente todos los casos?',
@@ -61,7 +61,7 @@ export const doctoraFaqs: FAQ[] = [
   },
   {
     question: '¿Qué incluye la primera consulta con la doctora?',
-    answer: `La evaluación inicial incluye revisión clínica completa, escaneo 3D con tecnología iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D, diagnóstico y entrega del plan de tratamiento. Tiene un valor de $${SITE.prices.evaluacion}; las radiografías se toman en la misma clínica a $${SITE.prices.radiografia} cada una.`,
+    answer: `La evaluación inicial incluye revisión clínica completa, escaneo 3D con tecnología iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D, diagnóstico y entrega del plan de tratamiento. Tiene un valor de $${SITE.prices.evaluacion} dólares; las radiografías se toman en la misma clínica a $${SITE.prices.radiografia} dólares cada una.`,
   },
   {
     question: '¿Cómo agendo una cita?',
