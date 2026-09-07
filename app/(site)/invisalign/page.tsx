@@ -5,6 +5,7 @@ import ComparisonTable from '@/components/shared/ComparisonTable';
 import TwoPanelList from '@/components/shared/TwoPanelList';
 import ProcessSteps from '@/components/shared/ProcessSteps';
 import StatementStrip from '@/components/shared/StatementStrip';
+import LaserAddon from '@/components/shared/LaserAddon';
 import DoctorMini from '@/components/shared/DoctorMini';
 import FAQAccordion from '@/components/shared/FAQAccordion';
 import RelatedServices from '@/components/shared/RelatedServices';
@@ -72,6 +73,7 @@ export default function InvisalignPage() {
         right={invisalignCases.right}
         footnote={invisalignCases.footnote}
       />
+      <LaserAddon />
       <StatementStrip line1="La mayoría de clínicas te dicen que tardará 5 años o más." line2="Con nosotros, terminas antes." />
       <DoctorMini {...invisalignDoctor} />
       <FAQAccordion title="Preguntas Frecuentes sobre Invisalign" faqs={invisalignFaqs} />

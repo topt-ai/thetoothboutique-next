@@ -4,6 +4,7 @@ import SmilePreview from '@/components/home/SmilePreview';
 import Differentiators from '@/components/home/Differentiators';
 import Services from '@/components/home/Services';
 import FirstVisit from '@/components/home/FirstVisit';
+import LaserAddon from '@/components/shared/LaserAddon';
 import DraMelissa from '@/components/home/DraMelissa';
 import VideoSection from '@/components/VideoSection';
 import Testimonials from '@/components/Testimonials';
@@ -40,6 +41,7 @@ export default function HomePage() {
       <Differentiators />
       <Services />
       <FirstVisit />
+      <LaserAddon />
       <DraMelissa />
       <VideoSection />
       <Testimonials />

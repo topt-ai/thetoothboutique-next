@@ -90,7 +90,7 @@ export const invisalignFaqs: FAQ[] = [
   },
   {
     question: '¿Cuánto cuesta el tratamiento con Invisalign?',
-    answer: `El costo de Invisalign varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con el costo específico para tu caso.`,
+    answer: `El costo de Invisalign varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
   },
   {
     question: '¿Qué hace diferente a Invisalign frente a los brackets tradicionales?',
@@ -138,6 +138,6 @@ export const invisalignFaqs: FAQ[] = [
   },
   {
     question: '¿Se puede combinar Invisalign con el láser de fotobiomodulación?',
-    answer: 'Sí. El láser Ultradent es un complemento opcional que se aplica en las citas de control y puede ayudar a reducir las molestias de cada cambio de alineador y a acortar el tiempo total del tratamiento. Se cotiza como versión premium de tu plan y la doctora te indica si aplica para tu caso.',
+    answer: 'Sí. Es un complemento opcional que puedes agregar a tu plan. Se aplica en las citas de control, ayuda a acelerar el tratamiento y a reducir el dolor de cada cambio de alineador. Tú decides si lo incluyes.',
   },
 ];

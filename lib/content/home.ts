@@ -41,7 +41,7 @@ export const homeFaqs: FAQ[] = [
   },
   {
     question: '¿Cada cuánto debo hacerme una limpieza dental profesional?',
-    answer: `Se recomienda una profilaxis o limpieza dental profesional cada 6 meses. En The Tooth Boutique la sesión dura entre 30 y 40 minutos y tiene un costo de $${SITE.prices.profilaxis}.`,
+    answer: `Se recomienda una profilaxis o limpieza dental profesional cada 6 meses. En The Tooth Boutique tiene un costo de $${SITE.prices.profilaxis}.`,
   },
   {
     question: '¿La profilaxis dental quita las manchas de los dientes?',
@@ -53,6 +53,6 @@ export const homeFaqs: FAQ[] = [
   },
   {
     question: '¿Qué es el láser de fotobiomodulación y cuándo se usa?',
-    answer: 'Es un complemento opcional al tratamiento de Invisalign o brackets. Se aplica con láser Ultradent en las citas de control y puede ayudar a reducir las molestias después de cada ajuste y a acortar el tiempo total del tratamiento. No es un tratamiento por sí solo: se cotiza como versión premium de tu plan de ortodoncia y la Dra. Melissa Reneé te indica si aplica para tu caso.',
+    answer: 'Es un complemento opcional que puedes agregar a tu tratamiento de Invisalign o brackets. Se aplica en las citas de control, ayuda a acelerar el tratamiento y a reducir el dolor después de cada ajuste. Tú decides si lo incluyes en tu plan.',
   },
 ];

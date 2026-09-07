@@ -6,6 +6,7 @@ import Advantages from '@/components/brackets/Advantages';
 import ProcessSteps from '@/components/shared/ProcessSteps';
 import TwoPanelList from '@/components/shared/TwoPanelList';
 import StatementStrip from '@/components/shared/StatementStrip';
+import LaserAddon from '@/components/shared/LaserAddon';
 import DoctorMini from '@/components/shared/DoctorMini';
 import FAQAccordion from '@/components/shared/FAQAccordion';
 import RelatedServices from '@/components/shared/RelatedServices';
@@ -74,6 +75,7 @@ export default function BracketsPage() {
         right={bracketsCare.right}
         footnote={bracketsCare.footnote}
       />
+      <LaserAddon />
       <StatementStrip line1="En otros lugares te dicen que tardará 5 años o más." line2="Aquí terminamos antes." />
       <DoctorMini {...bracketsDoctor} />
       <FAQAccordion title="Preguntas Frecuentes sobre Brackets" faqs={bracketsFaqs} />

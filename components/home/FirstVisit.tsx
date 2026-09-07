@@ -14,7 +14,7 @@ const items = [
   },
   {
     title: 'Diagnóstico y plan',
-    body: 'Sales con un plan de tratamiento personalizado: opciones, tiempos estimados y el costo exacto para tu caso.',
+    body: 'Sales con un plan de tratamiento personalizado, con las opciones y los tiempos estimados para tu caso.',
   },
 ];
 

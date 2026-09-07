@@ -61,7 +61,7 @@ const offerCatalog = {
       name: 'Blanqueamiento dental y limpieza profesional',
       itemListElement: [
         procedure('Blanqueamiento Dental', 'Blanqueamiento dental profesional con resultados de 5 a 7 tonos más blanco en una sola sesión de 30 minutos.'),
-        procedure('Profilaxis Dental', `Limpieza dental profesional que elimina placa, sarro y manchas superficiales. Sesión de 30 a 40 minutos, recomendada cada 6 meses, con un costo de $${SITE.prices.profilaxis}.`),
+        procedure('Profilaxis Dental', `Limpieza dental profesional que elimina placa, sarro y manchas superficiales. Recomendada cada 6 meses, con un costo de $${SITE.prices.profilaxis}.`),
       ],
     },
     {
@@ -81,7 +81,7 @@ const offerCatalog = {
           itemOffered: { '@type': 'MedicalProcedure', name: 'Radiografías Dentales', description: 'Radiografía panorámica, cefalométrica y 3D tomadas en la misma clínica. Costo por radiografía.' },
         },
         procedure('Retenedores', 'Retenedores fijos y removibles para mantener la posición de los dientes después del tratamiento de ortodoncia.'),
-        procedure('Fotobiomodulación Láser (complemento premium)', 'Complemento opcional al tratamiento de Invisalign o brackets con láser Ultradent, aplicado en las citas de control. Puede ayudar a reducir molestias tras los ajustes y a acortar el tiempo total de ortodoncia. Se cotiza como add-on al plan de tratamiento.'),
+        procedure('Láser de fotobiomodulación (complemento opcional)', 'Complemento opcional al tratamiento de Invisalign o brackets, aplicado en las citas de control. Ayuda a acelerar el tratamiento y a reducir el dolor después de cada ajuste. El paciente decide si lo incluye en su plan.'),
       ],
     },
   ],

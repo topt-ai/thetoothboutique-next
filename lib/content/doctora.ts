@@ -61,7 +61,7 @@ export const doctoraFaqs: FAQ[] = [
   },
   {
     question: '¿Qué incluye la primera consulta con la doctora?',
-    answer: `La evaluación inicial incluye revisión clínica completa, escaneo 3D con tecnología iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D, diagnóstico y entrega del plan de tratamiento con el costo específico para tu caso. Tiene un valor de $${SITE.prices.evaluacion}; las radiografías se toman en la misma clínica a $${SITE.prices.radiografia} cada una.`,
+    answer: `La evaluación inicial incluye revisión clínica completa, escaneo 3D con tecnología iTero, fotografías extraorales e intraorales, radiografía panorámica, cefalométrica y 3D, diagnóstico y entrega del plan de tratamiento. Tiene un valor de $${SITE.prices.evaluacion}; las radiografías se toman en la misma clínica a $${SITE.prices.radiografia} cada una.`,
   },
   {
     question: '¿Cómo agendo una cita?',

@@ -114,7 +114,7 @@ export const blanqueamientoFaqs: FAQ[] = [
   },
   {
     question: '¿Cuánto cuesta el blanqueamiento dental?',
-    answer: `El costo del blanqueamiento dental varía según cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con el costo específico para tu caso.`,
+    answer: `El costo del blanqueamiento dental varía según cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
   },
   {
     question: '¿Cuántos tonos puedo blanquear realmente?',

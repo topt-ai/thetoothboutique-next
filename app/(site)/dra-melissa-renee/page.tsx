@@ -111,7 +111,7 @@ export default function DoctoraPage() {
       <CTABanner
         line1="Tu caso, evaluado"
         line2="por la doctora."
-        text="La evaluación inicial incluye escaneo 3D, fotografías, radiografías, diagnóstico y plan de tratamiento con el costo exacto para tu caso."
+        text="La evaluación inicial incluye escaneo 3D, fotografías, radiografías, diagnóstico y plan de tratamiento."
         cta="Agenda tu evaluación"
       />
     </main>

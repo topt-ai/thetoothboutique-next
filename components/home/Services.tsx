@@ -24,7 +24,7 @@ const services = [
     bullets: [
       'Metálicos, cerámicos y autoligados',
       'Controles cada 4 semanas',
-      'Láser de fotobiomodulación como complemento premium',
+      'Láser opcional para terminar antes y con menos dolor',
     ],
     link: '/brackets',
   },

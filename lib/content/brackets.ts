@@ -118,7 +118,7 @@ export const bracketsFaqs: FAQ[] = [
   },
   {
     question: '¿Cuánto cuesta el tratamiento de brackets en San Salvador?',
-    answer: `El costo de los brackets varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con el costo específico para tu caso.`,
+    answer: `El costo de los brackets varía según la complejidad de cada caso. Para darte un precio exacto, hacemos una evaluación inicial de $${SITE.prices.evaluacion} que incluye escaneo 3D, fotos y diagnóstico completo, donde te entregamos un plan de tratamiento con las opciones para tu caso.`,
   },
   {
     question: '¿Cuántas veces vengo a control durante el tratamiento?',
@@ -142,6 +142,6 @@ export const bracketsFaqs: FAQ[] = [
   },
   {
     question: '¿Se puede combinar el tratamiento con brackets con el láser de fotobiomodulación?',
-    answer: 'Sí. El láser Ultradent es un complemento opcional que se aplica en las citas de control y puede ayudar a reducir las molestias después de cada ajuste y a acortar el tiempo total del tratamiento. Se cotiza como versión premium de tu plan y la doctora te indica si aplica para tu caso.',
+    answer: 'Sí. Es un complemento opcional que puedes agregar a tu plan. Se aplica en las citas de control, ayuda a acelerar el tratamiento y a reducir el dolor después de cada ajuste. Tú decides si lo incluyes.',
   },
 ];
